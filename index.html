@@ -204,11 +204,24 @@ const formatBRL = v =>
   });
 
 function formatValue(label, value){
+  // Percentual
   if (label.includes('%')) {
     return `${(value * 100).toFixed(1)}%`;
   }
+
+  // Quantidades (não monetárias)
+  const plainNumberLabels = [
+    'Qtd Vendas'
+  ];
+
+  if (plainNumberLabels.includes(label)) {
+    return value.toLocaleString('pt-BR');
+  }
+
+  // Padrão: dinheiro
   return formatBRL(value);
 }
+
 
 
 function getCat(name){ return raw.find(r => r.Categoria === name); }
