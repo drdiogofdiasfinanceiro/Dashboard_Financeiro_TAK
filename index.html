@@ -133,8 +133,15 @@
     <div class="card chart-card"><div id="areaAtendimentos" class="chart-inner"></div></div>
   </div>
 
+  <div class="grid-2">
+    <div class="card chart-card"><div id="areaConsultas" class="chart-inner"></div></div>
+    <div class="card chart-card"><div id="areaInjetaveis" class="chart-inner"></div></div>
+  </div>
+
   <h2>SALDOS</h2>
   <div class="grid-4" id="bottomKPIs"></div>
+
+  
 </div>
 
 <p id="contextLine" style="font-size:12px;color:#6b7280;margin-bottom:16px;"></p>
@@ -306,13 +313,6 @@ function render(){
     ['SALDO INICIAL STONE','Saldo Inicial']
   ]);
 
-  renderCards('bottomKPIs', [
-    ['SALDO DO PER?ODO','Saldo Mês'],
-    ['SALDO FINAL UNICRED','Saldo Final Unicred'],
-    ['SALDO FINAL STONE','Saldo Final Stone'],
-    ['CAIXINHA','Caixinha']
-  ]);
-
   renderBar('areaSocios','Sócios',[
     'RETIRADA SOCIO','DESPESAS PESSOAIS - SOCIO'
   ], ['Retirada','Despesas']);
@@ -320,6 +320,24 @@ function render(){
   renderBar('areaAtendimentos','Atendimentos',[
     'HOMENS','MULHERES'
   ], ['Homens','Mulheres']);
+  
+  renderBar('areaConsultas','Consultas',[
+    'CONSULTAS TOTAIS','CONSULTAS HOMENS','CONSULTAS MULHERES','CONSULTAS HOMENS NOVOS','CONSULTAS MULHERES NOVAS'
+  ], ['Total','Homens','Mulheres','Homens Novos','Mulheres Novas']);
+
+  renderBar('areaInjetaveis','Injetáveis',[
+  'INJETAVEIS TOTAIS','INJETAVEIS HOMENS','INJETAVEIS MULHERES'
+  ], ['Total','Homens','Mulheres']);
+
+  renderCards('bottomKPIs', [
+    ['SALDO DO PER?ODO','Saldo Mês'],
+    ['SALDO FINAL UNICRED','Saldo Final Unicred'],
+    ['SALDO FINAL STONE','Saldo Final Stone'],
+    ['CAIXINHA','Caixinha']
+  ]);
+
+
+  
 }
 
 function renderCards(containerId, defs){
