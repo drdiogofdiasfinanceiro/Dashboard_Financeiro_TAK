@@ -92,6 +92,58 @@
       opacity: 1;
     }
 
+    /* Waffle de Atendimentos (ícones de pessoa) */
+.waffle-wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.waffle-title {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 2px 0 10px;
+  color: #111827;
+}
+
+.waffle-subtitle {
+  font-size: 12px;
+  color: #6b7280;
+  margin-bottom: 10px;
+}
+
+.waffle-grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr); /* 10 por linha, igual ao seu exemplo */
+  gap: 6px;
+  align-items: center;
+}
+
+.person-icon {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  display: block;
+}
+
+.waffle-legend {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 12px;
+  color: #374151;
+}
+
+.legend-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  display: inline-block;
+  margin-right: 6px;
+  vertical-align: middle;
+}
+
   </style>
 </head>
 <body>
@@ -267,7 +319,104 @@ function rollingAverage(values, window){
     return slice.reduce((a,b) => a + b, 0) / slice.length;
   });
 }
-  
+
+// SVG simples de "pessoa" (parecido com o exemplo)
+function personSVG(fill){
+  return `
+  <svg class="person-icon" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-label="pessoa">
+    <circle cx="32" cy="20" r="12" fill="${fill}"></circle>
+    <path d="M10 58c0-14 10-22 22-22s22 8 22 22" fill="${fill}"></path>
+  </svg>`;
+}
+
+/**
+ * Waffle “estilo exemplo”: grade fixa (padrão 40 ícones = 4 linhas x 10 colunas)
+ * Preenche primeiro Homens, depois Mulheres, e o resto fica apagado (cinza claro).
+ *
+ * Se seus valores forem MUITO altos, recomendo usar um "1 ícone = X atendimentos".
+ */
+function renderAtendimentosWaffle(divId, totalIcons = 40){
+  const el = document.getElementById(divId);
+  if(!el) return;
+
+  const homensRow = getCat('HOMENS');
+  const mulheresRow = getCat('MULHERES');
+  if(!homensRow || !mulheresRow) return;
+
+  const homens = Math.max(0, Math.round(parseValue(homensRow[currentMonth])));
+  const mulheres = Math.max(0, Math.round(parseValue(mulheresRow[currentMonth])));
+  const total = homens + mulheres;
+
+  // Cores do pedido: azul homens, vermelho mulheres
+  const COLOR_H = '#2563eb';
+  const COLOR_M = '#dc2626';
+  const COLOR_EMPTY = '#d1d5db';
+
+  // Se total > totalIcons, a waffle “estoura”.
+  // Aqui eu faço uma escala automática: 1 ícone = step atendimentos.
+  const step = total > totalIcons ? Math.ceil(total / totalIcons) : 1;
+
+  const homensIcons = Math.round(homens / step);
+  const mulheresIcons = Math.round(mulheres / step);
+
+  // Ajuste pra não passar do totalIcons
+  let filled = homensIcons + mulheresIcons;
+  if(filled > totalIcons){
+    const overflow = filled - totalIcons;
+    // tira primeiro de mulheres (ou você pode tirar proporcionalmente)
+    const newMulheres = Math.max(0, mulheresIcons - overflow);
+    filled = homensIcons + newMulheres;
+
+    // sobrescreve
+    el.dataset.mulheresIcons = newMulheres;
+  } else {
+    el.dataset.mulheresIcons = mulheresIcons;
+  }
+  el.dataset.homensIcons = homensIcons;
+
+  const finalHomensIcons = Number(el.dataset.homensIcons);
+  const finalMulheresIcons = Number(el.dataset.mulheresIcons);
+  const emptyIcons = Math.max(0, totalIcons - (finalHomensIcons + finalMulheresIcons));
+
+  // Monta HTML
+  const title = `Atendimentos (Waffle)`;
+  const subtitle = `Mês: ${currentMonth} • Escala: 1 ícone = ${step} atendimento(s)`;
+
+  let iconsHTML = '';
+
+  // Homens (preenchidos primeiro)
+  for(let i=0; i<finalHomensIcons; i++){
+    iconsHTML += `<div title="Homens">${personSVG(COLOR_H)}</div>`;
+  }
+
+  // Mulheres
+  for(let i=0; i<finalMulheresIcons; i++){
+    iconsHTML += `<div title="Mulheres">${personSVG(COLOR_M)}</div>`;
+  }
+
+  // Restante apagado
+  for(let i=0; i<emptyIcons; i++){
+    iconsHTML += `<div title="Sem preenchimento">${personSVG(COLOR_EMPTY)}</div>`;
+  }
+
+  el.innerHTML = `
+    <div class="waffle-wrap">
+      <div class="waffle-title">${title}</div>
+      <div class="waffle-subtitle">${subtitle}</div>
+
+      <div class="waffle-grid">
+        ${iconsHTML}
+      </div>
+
+      <div class="waffle-legend">
+        <span><i class="legend-dot" style="background:${COLOR_H}"></i>Homens</span>
+        <span><i class="legend-dot" style="background:${COLOR_M}"></i>Mulheres</span>
+        <span><i class="legend-dot" style="background:${COLOR_EMPTY}"></i>Restante</span>
+      </div>
+    </div>
+  `;
+}
+
   
 function render(){
   updateContextLine();
@@ -305,7 +454,8 @@ function render(){
   ], ['Retirada','Despesas']);
 
 
-  renderWaffleAtendimentos('areaAtendimentos');
+  renderAtendimentosWaffle('areaAtendimentos', 40); // 40 = 4 linhas x 10 colunas (igual ao exemplo)
+
 
 }
 
@@ -490,76 +640,7 @@ function renderBar(divId, title, keys, names){
 // WAFFLE CHART 
 // ===============================
 
-const PERSON_SYMBOL = 'circle'; // base simples para waffle
 
-function renderWaffleAtendimentos(divId){
-  const homensRow = getCat('HOMENS');
-  const mulheresRow = getCat('MULHERES');
-
-  if(!homensRow || !mulheresRow) return;
-
-  const x = [];
-  const y = [];
-  const texts = [];
-  const colors = [];
-
-  let col = 0;
-
-  months.forEach(m => {
-    const homens = Math.round(parseValue(homensRow[m]));
-    const mulheres = Math.round(parseValue(mulheresRow[m]));
-
-    let row = 0;
-
-    // Homens
-    for(let i = 0; i < homens; i++){
-      x.push(col);
-      y.push(row);
-      texts.push('👤');
-      colors.push('#2563eb'); // azul
-      row++;
-    }
-
-    // Mulheres
-    for(let i = 0; i < mulheres; i++){
-      x.push(col);
-      y.push(row);
-      texts.push('👤');
-      colors.push('#dc2626'); // vermelho
-      row++;
-    }
-
-    col++;
-  });
-
-  Plotly.newPlot(divId, [{
-    type: 'scatter',
-    mode: 'text',
-    x: x,
-    y: y,
-    text: texts,
-    textfont: {
-      size: 16,
-      color: colors
-    },
-    hoverinfo: 'none'
-  }], {
-    title: 'Atendimentos por Mês',
-    xaxis: {
-      tickvals: [...Array(months.length).keys()],
-      ticktext: months,
-      showgrid: false,
-      zeroline: false
-    },
-    yaxis: {
-      visible: false
-    },
-    margin: { t: 40, l: 20, r: 20, b: 40 }
-  }, {
-    responsive: true,
-    displayModeBar: false
-  });
-}
 
 
 
