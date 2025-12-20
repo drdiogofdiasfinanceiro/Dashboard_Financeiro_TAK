@@ -98,24 +98,24 @@
   {
     "Categoria": "N? ATENDIMENTOS",
     "JULHO": "",
-    "AGOSTO": "",
-    "SETEMBRO": "",
+    "AGOSTO": 277,
+    "SETEMBRO": 269,
     "OUTUBRO": 277,
     "NOVEMBRO": 269
   },
   {
     "Categoria": "HOMENS",
     "JULHO": "",
-    "AGOSTO": "",
-    "SETEMBRO": "",
+    "AGOSTO": 165,
+    "SETEMBRO": 169,
     "OUTUBRO": 165,
     "NOVEMBRO": 169
   },
   {
     "Categoria": "MULHERES",
     "JULHO": "",
-    "AGOSTO": "",
-    "SETEMBRO": "",
+    "AGOSTO": 112,
+    "SETEMBRO": 100,
     "OUTUBRO": 112,
     "NOVEMBRO": 100
   },
