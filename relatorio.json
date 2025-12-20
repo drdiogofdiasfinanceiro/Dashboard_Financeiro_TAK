@@ -169,18 +169,18 @@
   },
   {
     "Categoria": "DESPESA TOTAL",
-    "JULHO": 336766.68000000005,
-    "AGOSTO": 355510.77,
-    "SETEMBRO": 279095.8,
-    "OUTUBRO": 389121.64,
+    "JULHO": 320108.47000000003,
+    "AGOSTO": 338852.56,
+    "SETEMBRO": 262437.58999999997,
+    "OUTUBRO": 372463.43,
     "NOVEMBRO": 180527.28
   },
   {
     "Categoria": "CUSTOS FIXOS TOTAL",
-    "JULHO": 33785.14,
-    "AGOSTO": 34919.83,
-    "SETEMBRO": 33407.46,
-    "OUTUBRO": 34836.08,
+    "JULHO": 17126.93,
+    "AGOSTO": 18261.62,
+    "SETEMBRO": 16749.25,
+    "OUTUBRO": 18177.87,
     "NOVEMBRO": 36068.189999999995
   },
   {
@@ -233,26 +233,26 @@
   },
   {
     "Categoria": "CONTADOR*",
-    "JULHO": 825,
-    "AGOSTO": 825,
-    "SETEMBRO": 825,
-    "OUTUBRO": 825,
+    "JULHO": "",
+    "AGOSTO": "",
+    "SETEMBRO": "",
+    "OUTUBRO": "",
     "NOVEMBRO": 825
   },
   {
     "Categoria": "SAL?RIOS",
-    "JULHO": 10762.74,
-    "AGOSTO": 10762.74,
-    "SETEMBRO": 10762.74,
-    "OUTUBRO": 10762.74,
+    "JULHO": "",
+    "AGOSTO": "",
+    "SETEMBRO": "",
+    "OUTUBRO": "",
     "NOVEMBRO": 10762.74
   },
   {
     "Categoria": "IMPOSTOS",
-    "JULHO": 5070.47,
-    "AGOSTO": 5070.47,
-    "SETEMBRO": 5070.47,
-    "OUTUBRO": 5070.47,
+    "JULHO": "",
+    "AGOSTO": "",
+    "SETEMBRO": "",
+    "OUTUBRO": "",
     "NOVEMBRO": 5070.47
   },
   {
