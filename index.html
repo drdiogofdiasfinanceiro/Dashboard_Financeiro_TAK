@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dashboard Financeiro</title>
+  <script src="https://cdn.plot.ly/plotly-2.30.0.min.js"></script>
+  <style>
+    body { margin:0; font-family:Inter,Arial,sans-serif; background:#f5f7fb; color:#1f2937; }
+    .container { padding:24px; max-width:1400px; margin:auto; }
+    h1 { font-size:24px; margin-bottom:8px; }
+    h2 { font-size:14px; color:#6b7280; margin:16px 0 12px; }
+    .controls { display:flex; justify-content:space-between; align-items:center; margin-bottom:16px; gap:16px; }
+    .month-controls { display:flex; align-items:center; gap:12px; }
+    .quick-months { display:flex; gap:6px; }
+    .month-chip {
+      padding:4px 10px;
+      font-size:12px;
+      border-radius:999px;
+      background:#e5e7eb;
+      color:#374151;
+      cursor:pointer;
+      user-select:none;
+    }
+    .month-chip.active { background:#059669; color:#fff; }
+
+    .upload-btn {
+      position:relative;
+      overflow:hidden;
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      padding:6px 12px;
+      border-radius:10px;
+      background:#ffffff;
+      border:1px solid #d1d5db;
+      font-size:13px;
+      cursor:pointer;
+    }
+    .upload-btn svg { width:16px; height:16px; stroke:#374151; }
+    .upload-btn input { position:absolute; inset:0; opacity:0; cursor:pointer; }
+
+    .grid-4 { display:grid; grid-template-columns:repeat(4,1fr); gap:16px; margin-bottom:24px; }
+    .grid-2 { display:grid; grid-template-columns:repeat(2,1fr); gap:16px; margin-bottom:24px; }
+    .chart-card { height:180px; padding:12px; }
+    .chart-inner { width:100%; height:100%; }
+    .card { background:#fff; border-radius:14px; padding:16px; box-shadow:0 4px 10px rgba(0,0,0,0.05); }
+    .card-title { font-size:12px; color:#6b7280; margin-bottom:6px; }
+    .card-value { font-size:26px; font-weight:700; }
+
+    .metric-icon {
+      width:40px; height:40px;
+      border-radius:12px;
+      background:#ecfdf5;
+      display:flex; align-items:center; justify-content:center;
+    }
+    .metric-icon svg { width:20px; height:20px; stroke:#059669; fill:none; stroke-width:2; }
+
+    .delta { display:inline-flex; align-items:center; gap:4px; font-size:12px; font-weight:500; padding:2px 8px; border-radius:999px; }
+    .delta.up { background:#ecfdf5; color:#059669; }
+    .delta.down { background:#fef2f2; color:#dc2626; }
+
+    select,input { padding:6px 10px; border-radius:8px; border:1px solid #d1d5db; }
+
+    /* ===============================
+    KPI Tooltips
+    =============================== */
+    .tooltip {
+      position: relative;
+      cursor: help;
+    }
+    
+    .tooltip span {
+      visibility: hidden;
+      opacity: 0;
+      position: absolute;
+      bottom: 125%;
+      left: 50%;
+      transform: translateX(-50%);
+      background: #111827;
+      color: #fff;
+      font-size: 11px;
+      padding: 6px 8px;
+      border-radius: 6px;
+      white-space: nowrap;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      transition: opacity 0.2s ease;
+      z-index: 20;
+    }
+    
+    .tooltip:hover span {
+      visibility: visible;
+      opacity: 1;
+    }
+
+  </style>
+</head>
+<body>
+<div class="container">
+  <h1>Dashboard Financeiro</h1>
+
+  <div class="controls">
+    <div class="month-controls">
+      <div>
+        <label>Mês:&nbsp;</label>
+        <select id="monthSelect"></select>
+      </div>
+      <div class="quick-months" id="quickMonths"></div>
+    </div>
+
+    <label class="upload-btn">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="2">
+        <path d="M12 3v12" />
+        <path d="M7 8l5-5 5 5" />
+        <path d="M5 21h14" />
+      </svg>
+      Upload JSON
+      <input type="file" id="fileInput" accept="application/json" />
+    </label>
+  </div>
+
+  <div class="grid-4" id="topKPIs"></div>
+
+  <div class="grid-2">
+    <div class="card chart-card"><div id="areaRevenue" class="chart-inner"></div></div>
+    <div class="card chart-card"><div id="areaCosts" class="chart-inner"></div></div>
+  </div>
+
+  <h2>STONE</h2>
+  <div class="grid-4" id="stoneKPIs"></div>
+  
+  <div class="grid-2">
+    <div class="card chart-card"><div id="areaSocios" class="chart-inner"></div></div>
+    <div class="card chart-card"><div id="areaAtendimentos" class="chart-inner"></div></div>
+  </div>
+
+  <h2>SALDOS</h2>
+  <div class="grid-4" id="bottomKPIs"></div>
+</div>
+
+<p id="contextLine" style="font-size:12px;color:#6b7280;margin-bottom:16px;"></p>
+<!-- Embedded JSON so the dashboard works 100% offline (file://) -->
+<script id="preloaded-json" type="application/json">
+PASTE_YOUR_JSON_HERE
+</script>
+
+<script>
+// Shared chart color palette (kept consistent across area & bar charts)
+const CHART_COLORS = ['#2563eb', '#f97316', '#059669', '#dc2626'];
+
+let raw = [];
+let months = [];
+let currentMonth = '';
+
+// Map full month names to short forms
+const monthMap = {
+  'JANEIRO': 'JAN',
+  'FEVEREIRO': 'FEV',
+  'MARÇO': 'MAR',
+  'ABRIL': 'ABR',
+  'MAIO': 'MAI',
+  'JUNHO': 'JUN',
+  'JULHO': 'JUL',
+  'AGOSTO': 'AGO',
+  'SETEMBRO': 'SET',
+  'OUTUBRO': 'OUT',
+  'NOVEMBRO': 'NOV',
+  'DEZEMBRO': 'DEZ'
+};
+
+function parseValue(v){
+  if(typeof v === 'number') return v;
+  if(typeof v === 'string'){
+    if(v.includes('%')) return parseFloat(v.replace(',','.'));
+    return parseFloat(v.replace(/R\$|\.|\s/g,'').replace(',','.')) || 0;
+  }
+  return 0;
+}
+
+// Shorten month but keep the year (e.g., NOVEMBRO/25 → NOV/25)
+function shortenMonthWithYear(monthStr){
+  for(const [full, short] of Object.entries(monthMap)){
+    if(monthStr.includes(full)){
+      // Extract the year part if present (e.g., /25)
+      const yearMatch = monthStr.match(/\/\d{2,4}$/);
+      const yearPart = yearMatch ? yearMatch[0] : '';
+      return short + yearPart;
+    }
+  }
+  return monthStr; // leave unchanged if no match
+}
+
+// Example usage: update the months array
+function updateMonthsArray(){
+  months = months.map(m => shortenMonthWithYear(m));
+  Logger.log(months);
+}
+
+
+const formatBRL = v =>
+  v.toLocaleString('pt-BR', {
+    style: 'currency',
+    currency: 'BRL',
+    maximumFractionDigits: 0
+  });
+
+function formatValue(label, value){
+  if (label.includes('%')) {
+    return `${(value * 100).toFixed(1)}%`;
+  }
+  return formatBRL(value);
+}
+
+
+function getCat(name){ return raw.find(r => r.Categoria === name); }
+
+function init(json){
+  raw = json || [];
+  if(!raw.length) return;
+  const sample = raw[0];
+  months = Object.keys(sample).filter(k => k !== 'Categoria');
+  currentMonth = months[months.length - 1];
+  populateMonths();
+  render();
+}
+
+
+function populateMonths(){
+  const sel = document.getElementById('monthSelect');
+  const quick = document.getElementById('quickMonths');
+  sel.innerHTML = '';
+  quick.innerHTML = '';
+
+  months.forEach(m => {
+    const o = document.createElement('option');
+    o.value = m; o.textContent = m;
+    if(m === currentMonth) o.selected = true;
+    sel.appendChild(o);
+  });
+
+  months.slice(-3).forEach(m => {
+    const chip = document.createElement('div');
+    chip.className = 'month-chip' + (m === currentMonth ? ' active' : '');
+    chip.textContent = m;
+    chip.onclick = () => { currentMonth = m; populateMonths(); render(); };
+    quick.appendChild(chip);
+  });
+
+  sel.onchange = e => { currentMonth = e.target.value; populateMonths(); render(); };
+}
+  
+function updateContextLine(){
+  const el = document.getElementById('contextLine');
+  if (!el) return; // ✅ prevents crashes
+
+  const now = new Date().toLocaleString('pt-BR');
+  el.textContent = `Mês selecionado: ${currentMonth} • Última atualização: ${now}`;
+}
+
+
+let avgWindow = 1;
+
+function rollingAverage(values, window){
+  if(window === 1) return values;
+  return values.map((_, i) => {
+    const start = Math.max(0, i - window + 1);
+    const slice = values.slice(start, i + 1);
+    return slice.reduce((a,b) => a + b, 0) / slice.length;
+  });
+}
+  
+  
+function render(){
+  updateContextLine();
+  renderCards('topKPIs', [
+    ['RECEITAS','Receitas'],
+    ['DESPESAS','Despesas'],
+    ['SALDO DO PERÍODO','Saldo Mês'],
+    ['LUCRO LIQUIDO %','Lucro %']
+  ]);
+
+  renderArea('areaRevenue','Faturamento',[
+    'FATURAMENTO DE CONSULTAS','FATURAMENTO INJETAVEIS'
+  ], ['Consultas','Injetáveis']);
+
+  renderArea('areaCosts','Custos',[
+    'CUSTOS FIXOS TOTAL','CUSTOS VARIÁVEIS TOTAL'
+  ], ['Fixos','Variáveis']);
+
+  renderCards('stoneKPIs', [
+    ['VENDA TOTAL - STONE','Vendas Stone'],
+    ['NÚMERO VENDAS - STONE','Qtd Vendas'],
+    ['TICKET MÉDIO - STONE','Ticket Médio'],
+    ['SALDO INICIAL STONE','Saldo Inicial']
+  ]);
+
+  renderCards('bottomKPIs', [
+    ['SALDO DO PERÍODO','Saldo Mês'],
+    ['SALDO FINAL UNICRED','Saldo Final Unicred'],
+    ['SALDO FINAL STONE','Saldo Final Stone'],
+    ['CAIXINHA','Caixinha']
+  ]);
+
+  renderBar('areaSocios','Sócios',[
+    'RETIRADA SOCIO','DESPESAS PESSOAIS - SOCIO'
+  ], ['Retirada','Despesas']);
+
+  renderBar('areaAtendimentos','Atendimentos',[
+    'HOMENS','MULHERES'
+  ], ['Homens','Mulheres']);
+}
+
+function renderCards(containerId, defs){
+  const c = document.getElementById(containerId);
+  c.innerHTML = '';
+
+  const iconMap = {
+    'Receitas':'M12 3c-3 0-5 2-5 5v1h10V8c0-3-2-5-5-5zm-6 8h12l-1 9H7l-1-9z',
+    'Despesas':'M6 7c0-2 12-2 12 0s-12 2-12 0zm0 4c0-2 12-2 12 0s-12 2-12 0zm0 4c0-2 12-2 12 0s-12 2-12 0z',
+    'Saldo Mês':'M4 16l6-6 4 4 6-8',
+    'Lucro %':'M6 8h12l-1 12H7L6 8zm3 0V6a3 3 0 016 0v2',
+    'Vendas Stone':'M7 3h10v18H7zM9 7h6M9 11h6M9 15h4',
+    'Qtd Vendas':'M9 3L7 21M17 3l-2 18M3 9h18M3 15h18',
+    'Ticket Médio':'M3 21l6-6M9 15l6-6M15 9l4-4M7 17l2 2',
+    'Saldo Inicial':'M3 7h18v10H3zM12 10a2 2 0 100 4 2 2 0 000-4',
+    'Saldo Final Unicred':'M12 3v18M6 9c2-3 10-3 12 0M8 13c2-2 6-2 8 0',
+    'Saldo Final Stone':'M12 4a8 8 0 100 16 8 8 0 000-16z',
+    'Caixinha':'M4 7h16v12H4zM10 13h4'
+  };
+
+  const KPI_DESCRIPTIONS = {
+  'Receitas': 'Total faturado no mês selecionado',
+  'Despesas': 'Soma de todos os custos do mês',
+  'Saldo Mês': 'Receitas menos despesas do período',
+  'Lucro %': 'Lucro líquido em relação às receitas',
+  'Vendas Stone': 'Valor total processado pela Stone',
+  'Qtd Vendas': 'Número de transações realizadas pela Stone', 
+  'Ticket Médio': 'Valor médio por venda pela Stone',
+  'Saldo Inicial': 'Saldo disponível no início do mês na Stone',
+  'Saldo Final Unicred': 'Saldo final da conta Unicred',
+  'Saldo Final Stone': 'Saldo final da Stone',
+  'Caixinha': 'Reserva financeira'
+};
+
+  const KPI_POLARITY = {
+  'Receitas': 'up',
+  'Despesas': 'down',
+  'Saldo Mês': 'up',
+  'Lucro %': 'up',
+  'Vendas Stone': 'up',
+  'Qtd Vendas': 'up',
+  'Ticket Médio': 'up',
+  'Saldo Inicial': 'up',
+  'Saldo Final Unicred': 'up',
+  'Saldo Final Stone': 'up',
+  'Caixinha': 'up'
+};
+
+
+
+  defs.forEach(([key,label]) => {
+    const row = getCat(key);
+    if(!row) return;
+
+    const values = months.map(m => parseValue(row[m]));
+    const i = months.indexOf(currentMonth);
+    const cur = values[i];
+    const prev = values[i-1] ?? cur;
+    const diff = prev ? ((cur - prev) / prev) * 100 : 0;
+
+    const polarity = KPI_POLARITY[label] || 'up';
+
+    const wentUp = diff >= 0;
+    const wentDown = diff < 0;
+
+    // Is this movement good for this KPI?
+    const isGood = polarity === 'up' ? wentUp : wentDown;
+
+    // Visuals
+    const arrow = wentUp ? '▲' : '▼';
+    const deltaClass = isGood ? 'up' : 'down';
+
+
+
+
+    const sparkId = `spark-${containerId}-${key.replace(/[^a-zA-Z0-9]/g,'')}`;
+
+    const card = document.createElement('div');
+    card.className = 'card';
+    card.innerHTML = `
+      <div style="display:flex;justify-content:space-between;align-items:flex-start;">
+        <div>
+          <div class="card-title tooltip">
+            ${label} ⓘ
+            <span>${KPI_DESCRIPTIONS[label] || ''}</span>
+          </div>
+          <div class="card-value">${formatValue(label, cur)}</div>
+        </div>
+        <div class="metric-icon">
+          <svg viewBox="0 0 24 24"><path d="${iconMap[label] || ''}" /></svg>
+        </div>
+      </div>
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-top:10px;">
+        <span class="delta ${deltaClass}">${arrow} ${diff.toFixed(1)}%</span>
+        <div id="${sparkId}" style="width:90px;height:32px;"></div>
+      </div>
+    `;
+
+    c.appendChild(card);
+
+    const color = isGood ? '#059669' : '#dc2626';
+    const fill = isGood ? 'rgba(5,150,105,0.25)': 'rgba(220,38,38,0.25)';
+
+    Plotly.newPlot(sparkId, [{
+      x: months,
+      y: values,
+      type: 'scatter',
+      mode: 'lines',
+      line: { color, width: 2 },
+      fill: 'tozeroy',
+      fillcolor: fill
+    }], {
+      margin:{t:2,l:2,r:2,b:2},
+      xaxis:{visible:false},
+      yaxis:{visible:false}
+    }, {displayModeBar:false,staticPlot:true});
+  });
+}
+
+function renderArea(divId, title, keys, names){
+  const traces = keys.map((k,i) => {
+    const row = getCat(k);
+    if(!row) return null;
+    return {
+      x: months,
+      y: rollingAverage(
+        months.map(m => parseValue(row[m])),
+        avgWindow
+      ),
+      type:'scatter',
+      mode:'lines',
+      name:names[i],
+      stackgroup:'one',
+      fill: i===0 ? 'tozeroy' : 'tonexty',
+      line:{ color: CHART_COLORS[i % CHART_COLORS.length], width:2 },
+      fillcolor: CHART_COLORS[i % CHART_COLORS.length] + '33'
+    };
+  }).filter(Boolean);
+
+  Plotly.newPlot(divId, traces, {
+    title,
+    margin:{t:40,l:40,r:20,b:30},
+    legend:{orientation:'h',y:1.25}
+  }, {responsive:true,displayModeBar:false});
+}
+
+function renderBar(divId, title, keys, names){
+  const traces = keys.map((k,i) => {
+    const row = getCat(k);
+    if(!row) return null;
+    return {
+      type:'bar',
+      x: months,
+      y: rollingAverage(
+        months.map(m => parseValue(row[m])),
+        avgWindow
+      ),
+      name:names[i],
+      marker:{ color: CHART_COLORS[i % CHART_COLORS.length] + '33' }
+    };
+  }).filter(Boolean);
+
+  Plotly.newPlot(divId, traces, {
+    title,
+    barmode:'group',
+    margin:{t:40,l:40,r:20,b:30},
+    legend:{orientation:'h',y:1.25}
+  }, {responsive:true,displayModeBar:false});
+}
+
+fileInput.addEventListener('change', e => {
+  const r = new FileReader();
+  r.onload = ev => init(JSON.parse(ev.target.result));
+  r.readAsText(e.target.files[0]);
+});
+
+// ===============================
+// DATA LOADING (GitHub Pages + auto-refresh)
+// ===============================
+
+const DATA_BASE_NAME = 'relatorio'; // expects files like relatorio-YYYY-MM-DD.json
+const REFRESH_INTERVAL_MS = 5 * 60 * 1000; // 1 minutes
+
+function todayISO(){
+  const d = new Date();
+  return d.toISOString().slice(0,10); // YYYY-MM-DD
+}
+
+function loadLatestJSON(){
+  // 1) Try versioned file for today
+  const versioned = `${DATA_BASE_NAME}-${todayISO()}.json?cb=${Date.now()}`;
+
+  fetch(versioned)
+    .then(r => {
+      if (!r.ok) throw new Error('No versioned file');
+      return r.json();
+    })
+    .then(data => {
+      console.log('Loaded versioned data:', versioned);
+      init(data);
+    })
+    .catch(() => {
+      // 2) Fallback to non-versioned relatorio.json
+      fetch(`${DATA_BASE_NAME}.json?cb=${Date.now()}`)
+        .then(r => {
+          if (!r.ok) throw new Error('No base file');
+          return r.json();
+        })
+        .then(data => {
+          console.log('Loaded base data: relatorio.json');
+          init(data);
+        })
+        .catch(() => {
+          // 3) Final fallback: embedded JSON (file:// support)
+          try {
+            const embedded = document.getElementById('preloaded-json').textContent.trim();
+            if (embedded && !embedded.includes('PASTE_YOUR_JSON_HERE')) {
+              console.warn('Using embedded fallback JSON');
+              init(JSON.parse(embedded));
+            }
+          } catch (e) {
+            console.error('No data available', e);
+          }
+        });
+    });
+}
+
+// Initial load
+loadLatestJSON();
+
+// Auto-refresh
+setInterval(loadLatestJSON, REFRESH_INTERVAL_MS);
+</script>
+</body>
+</html>
