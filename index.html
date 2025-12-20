@@ -304,11 +304,14 @@ function render(){
     'RETIRADA SOCIO','DESPESAS PESSOAIS - SOCIO'
   ], ['Retirada','Despesas']);
 
-  renderBar('areaAtendimentos','Atendimentos',[
-    'HOMENS','MULHERES'
-  ], ['Homens','Mulheres']);
+
+  renderWaffleAtendimentos('areaAtendimentos');
+
 }
 
+// ===============================
+// CARDS
+// ===============================
 function renderCards(containerId, defs){
   const c = document.getElementById(containerId);
   c.innerHTML = '';
@@ -426,6 +429,9 @@ function renderCards(containerId, defs){
   });
 }
 
+// ===============================
+// AREA CHART 
+// ===============================
 function renderArea(divId, title, keys, names){
   const traces = keys.map((k,i) => {
     const row = getCat(k);
@@ -453,6 +459,9 @@ function renderArea(divId, title, keys, names){
   }, {responsive:true,displayModeBar:false});
 }
 
+// ===============================
+// BAR CHART 
+// ===============================
 function renderBar(divId, title, keys, names){
   const traces = keys.map((k,i) => {
     const row = getCat(k);
@@ -476,6 +485,86 @@ function renderBar(divId, title, keys, names){
     legend:{orientation:'h',y:1.25}
   }, {responsive:true,displayModeBar:false});
 }
+
+// ===============================
+// WAFFLE CHART 
+// ===============================
+
+const PERSON_SYMBOL = 'circle'; // base simples para waffle
+
+function renderWaffleAtendimentos(divId){
+  const homensRow = getCat('HOMENS');
+  const mulheresRow = getCat('MULHERES');
+
+  if(!homensRow || !mulheresRow) return;
+
+  const x = [];
+  const y = [];
+  const colors = [];
+  const texts = [];
+
+  let col = 0;
+
+  months.forEach((m, monthIndex) => {
+    const homens = Math.round(parseValue(homensRow[m]));
+    const mulheres = Math.round(parseValue(mulheresRow[m]));
+
+    let row = 0;
+
+    // Homens (azul)
+    for(let i = 0; i < homens; i++){
+      x.push(col);
+      y.push(row);
+      colors.push('#2563eb'); // azul
+      texts.push(`Homens • ${m}`);
+      row++;
+    }
+
+    // Mulheres (vermelho)
+    for(let i = 0; i < mulheres; i++){
+      x.push(col);
+      y.push(row);
+      colors.push('#dc2626'); // vermelho
+      texts.push(`Mulheres • ${m}`);
+      row++;
+    }
+
+    col++;
+  });
+
+  Plotly.newPlot(divId, [{
+    type: 'scatter',
+    mode: 'markers',
+    x: x,
+    y: y,
+    marker: {
+      symbol: 'circle',
+      size: 12,
+      color: colors
+    },
+    text: texts,
+    hoverinfo: 'text'
+  }], {
+    title: 'Atendimentos por Mês',
+    xaxis: {
+      tickvals: [...Array(months.length).keys()],
+      ticktext: months,
+      showgrid: false,
+      zeroline: false
+    },
+    yaxis: {
+      showgrid: false,
+      zeroline: false,
+      visible: false
+    },
+    margin: { t: 40, l: 20, r: 20, b: 40 },
+    showlegend: false
+  }, {
+    responsive: true,
+    displayModeBar: false
+  });
+}
+
 
 fileInput.addEventListener('change', e => {
   const r = new FileReader();
