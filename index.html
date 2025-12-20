@@ -283,7 +283,7 @@ function render(){
   ], ['Consultas','Injetáveis']);
 
   renderArea('areaCosts','Custos',[
-    'CUSTOS FIXOS TOTAL','CUSTOS VARIÁVEIS TOTAL'
+    'CUSTOS FIXOS TOTAL','CUSTOS VARI?VEIS TOTAL'
   ], ['Fixos','Variáveis']);
 
   renderCards('stoneKPIs', [
@@ -500,32 +500,32 @@ function renderWaffleAtendimentos(divId){
 
   const x = [];
   const y = [];
-  const colors = [];
   const texts = [];
+  const colors = [];
 
   let col = 0;
 
-  months.forEach((m, monthIndex) => {
+  months.forEach(m => {
     const homens = Math.round(parseValue(homensRow[m]));
     const mulheres = Math.round(parseValue(mulheresRow[m]));
 
     let row = 0;
 
-    // Homens (azul)
+    // Homens
     for(let i = 0; i < homens; i++){
       x.push(col);
       y.push(row);
+      texts.push('👤');
       colors.push('#2563eb'); // azul
-      texts.push(`Homens • ${m}`);
       row++;
     }
 
-    // Mulheres (vermelho)
+    // Mulheres
     for(let i = 0; i < mulheres; i++){
       x.push(col);
       y.push(row);
+      texts.push('👤');
       colors.push('#dc2626'); // vermelho
-      texts.push(`Mulheres • ${m}`);
       row++;
     }
 
@@ -534,16 +534,15 @@ function renderWaffleAtendimentos(divId){
 
   Plotly.newPlot(divId, [{
     type: 'scatter',
-    mode: 'markers',
+    mode: 'text',
     x: x,
     y: y,
-    marker: {
-      symbol: 'circle',
-      size: 12,
+    text: texts,
+    textfont: {
+      size: 16,
       color: colors
     },
-    text: texts,
-    hoverinfo: 'text'
+    hoverinfo: 'none'
   }], {
     title: 'Atendimentos por Mês',
     xaxis: {
@@ -553,17 +552,15 @@ function renderWaffleAtendimentos(divId){
       zeroline: false
     },
     yaxis: {
-      showgrid: false,
-      zeroline: false,
       visible: false
     },
-    margin: { t: 40, l: 20, r: 20, b: 40 },
-    showlegend: false
+    margin: { t: 40, l: 20, r: 20, b: 40 }
   }, {
     responsive: true,
     displayModeBar: false
   });
 }
+
 
 
 fileInput.addEventListener('change', e => {
