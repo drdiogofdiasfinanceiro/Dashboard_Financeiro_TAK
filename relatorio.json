@@ -3,7 +3,7 @@
     "Categoria": "DIAS TRABALHADOS",
     "Fri Jul 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": "",
     "Mon Aug 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": "",
-    "SETEMBRO": "",
+    "Thu Sep 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": "",
     "OUTUBRO": "23",
     "NOVEMBRO": "19"
   },
@@ -11,7 +11,7 @@
     "Categoria": "FATURAMENTO (NFSe)",
     "Fri Jul 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 25612,
     "Mon Aug 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 63975,
-    "SETEMBRO": 42592,
+    "Thu Sep 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 42592,
     "OUTUBRO": 47724,
     "NOVEMBRO": 101705
   },
@@ -19,7 +19,7 @@
     "Categoria": "SALDO INICIAL UNICRED",
     "Fri Jul 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 73883.71,
     "Mon Aug 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 73883.71,
-    "SETEMBRO": 115611.01,
+    "Thu Sep 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 115611.01,
     "OUTUBRO": 97428.5,
     "NOVEMBRO": 70719.96
   },
@@ -27,7 +27,7 @@
     "Categoria": "SALDO INICIAL STONE",
     "Fri Jul 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 86509,
     "Mon Aug 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 86509,
-    "SETEMBRO": 115231.02,
+    "Thu Sep 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 115231.02,
     "OUTUBRO": 211881.67,
     "NOVEMBRO": 281762
   },
@@ -35,7 +35,7 @@
     "Categoria": "SALDO INICIAL CAIXINHA",
     "Fri Jul 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 0,
     "Mon Aug 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 0,
-    "SETEMBRO": 0,
+    "Thu Sep 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 0,
     "OUTUBRO": 0,
     "NOVEMBRO": 0
   },
@@ -43,7 +43,7 @@
     "Categoria": "RECEITAS",
     "Fri Jul 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 273877.03,
     "Mon Aug 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 240666.09,
-    "SETEMBRO": 258017.1,
+    "Thu Sep 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 258017.1,
     "OUTUBRO": 269683.31,
     "NOVEMBRO": 226556.79
   },
@@ -51,7 +51,7 @@
     "Categoria": "DESPESAS",
     "Fri Jul 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 208900.53,
     "Mon Aug 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 170216.67,
-    "SETEMBRO": 179548.96,
+    "Thu Sep 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 179548.96,
     "OUTUBRO": 223011.95,
     "NOVEMBRO": 180527.28
   },
@@ -59,7 +59,7 @@
     "Categoria": "SALDO DO PER?ODO",
     "Fri Jul 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 64976.50000000003,
     "Mon Aug 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 70449.41999999998,
-    "SETEMBRO": 78468.14000000001,
+    "Thu Sep 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 78468.14000000001,
     "OUTUBRO": 46671.359999999986,
     "NOVEMBRO": 46029.51000000001
   },
@@ -67,7 +67,7 @@
     "Categoria": "SALDO FINAL UNICRED",
     "Fri Jul 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 73883.71,
     "Mon Aug 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 115611.01,
-    "SETEMBRO": 97428.5,
+    "Thu Sep 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 97428.5,
     "OUTUBRO": 70719.96,
     "NOVEMBRO": 96904.93
   },
@@ -75,7 +75,7 @@
     "Categoria": "SALDO FINAL STONE",
     "Fri Jul 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 86509,
     "Mon Aug 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 115231.02,
-    "SETEMBRO": 211881.67,
+    "Thu Sep 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 211881.67,
     "OUTUBRO": 281762,
     "NOVEMBRO": 301616.61
   },
@@ -83,7 +83,7 @@
     "Categoria": "CAIXINHA",
     "Fri Jul 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 0,
     "Mon Aug 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 0,
-    "SETEMBRO": 0,
+    "Thu Sep 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 0,
     "OUTUBRO": 0,
     "NOVEMBRO": 0
   },
@@ -91,7 +91,7 @@
     "Categoria": "LUCRO LIQUIDO %",
     "Fri Jul 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 0.23724698635734448,
     "Mon Aug 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 0.2927268232928037,
-    "SETEMBRO": 0.3041199207339359,
+    "Thu Sep 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 0.3041199207339359,
     "OUTUBRO": 0.17305987530336966,
     "NOVEMBRO": 0.20316985423389874
   },
@@ -99,7 +99,7 @@
     "Categoria": "CONSULTAS TOTAL",
     "Fri Jul 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 277,
     "Mon Aug 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 277,
-    "SETEMBRO": 269,
+    "Thu Sep 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 269,
     "OUTUBRO": 277,
     "NOVEMBRO": 269
   },
@@ -107,7 +107,7 @@
     "Categoria": "CONSULTAS HOMENS",
     "Fri Jul 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 165,
     "Mon Aug 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 165,
-    "SETEMBRO": 169,
+    "Thu Sep 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 169,
     "OUTUBRO": 165,
     "NOVEMBRO": 169
   },
@@ -115,7 +115,7 @@
     "Categoria": "CONSULTAS MULHERES",
     "Fri Jul 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 112,
     "Mon Aug 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 112,
-    "SETEMBRO": 100,
+    "Thu Sep 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 100,
     "OUTUBRO": 112,
     "NOVEMBRO": 100
   },
@@ -123,7 +123,7 @@
     "Categoria": "CONSULTAS HOMENS NOVOS",
     "Fri Jul 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 30,
     "Mon Aug 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 15,
-    "SETEMBRO": 5,
+    "Thu Sep 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 5,
     "OUTUBRO": 10,
     "NOVEMBRO": 23
   },
@@ -131,7 +131,7 @@
     "Categoria": "CONSULTAS MULHERES NOVAS",
     "Fri Jul 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 24,
     "Mon Aug 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 10,
-    "SETEMBRO": 20,
+    "Thu Sep 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 20,
     "OUTUBRO": 10,
     "NOVEMBRO": 22
   },
@@ -139,7 +139,7 @@
     "Categoria": "INJETAVEIS TOTAL",
     "Fri Jul 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 277,
     "Mon Aug 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 277,
-    "SETEMBRO": 269,
+    "Thu Sep 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 269,
     "OUTUBRO": 277,
     "NOVEMBRO": 269
   },
@@ -147,7 +147,7 @@
     "Categoria": "INJETAVEIS HOMENS",
     "Fri Jul 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 165,
     "Mon Aug 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 165,
-    "SETEMBRO": 169,
+    "Thu Sep 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 169,
     "OUTUBRO": 165,
     "NOVEMBRO": 169
   },
@@ -155,7 +155,7 @@
     "Categoria": "INJETAVEIS MULHERES",
     "Fri Jul 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 112,
     "Mon Aug 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 112,
-    "SETEMBRO": 100,
+    "Thu Sep 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 100,
     "OUTUBRO": 112,
     "NOVEMBRO": 100
   },
@@ -163,7 +163,7 @@
     "Categoria": "N? ATENDIMENTOS",
     "Fri Jul 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 277,
     "Mon Aug 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 277,
-    "SETEMBRO": 269,
+    "Thu Sep 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 269,
     "OUTUBRO": 277,
     "NOVEMBRO": 269
   },
@@ -171,7 +171,7 @@
     "Categoria": "HOMENS",
     "Fri Jul 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 165,
     "Mon Aug 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 165,
-    "SETEMBRO": 169,
+    "Thu Sep 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 169,
     "OUTUBRO": 165,
     "NOVEMBRO": 169
   },
@@ -179,7 +179,7 @@
     "Categoria": "MULHERES",
     "Fri Jul 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 112,
     "Mon Aug 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 112,
-    "SETEMBRO": 100,
+    "Thu Sep 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 100,
     "OUTUBRO": 112,
     "NOVEMBRO": 100
   },
@@ -187,7 +187,7 @@
     "Categoria": "VENDA TOTAL - STONE",
     "Fri Jul 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 182200,
     "Mon Aug 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 211487,
-    "SETEMBRO": 270917,
+    "Thu Sep 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 270917,
     "OUTUBRO": 247387,
     "NOVEMBRO": 258398
   },
@@ -195,7 +195,7 @@
     "Categoria": "N?MERO VENDAS - STONE",
     "Fri Jul 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 140,
     "Mon Aug 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 175,
-    "SETEMBRO": 187,
+    "Thu Sep 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 187,
     "OUTUBRO": 194,
     "NOVEMBRO": 206
   },
@@ -203,7 +203,7 @@
     "Categoria": "TICKET M?DIO - STONE",
     "Fri Jul 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 1301.4285714285713,
     "Mon Aug 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 1208.4971428571428,
-    "SETEMBRO": 1448.7540106951872,
+    "Thu Sep 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 1448.7540106951872,
     "OUTUBRO": 1275.1907216494844,
     "NOVEMBRO": 1254.3592233009708
   },
@@ -211,7 +211,7 @@
     "Categoria": "FATURAMENTO TOTAL",
     "Fri Jul 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 273877.03,
     "Mon Aug 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 240666.09,
-    "SETEMBRO": 258017.1,
+    "Thu Sep 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 258017.1,
     "OUTUBRO": 269683.31,
     "NOVEMBRO": 226556.79
   },
@@ -219,7 +219,7 @@
     "Categoria": "FATURAMENTO DE CONSULTAS",
     "Fri Jul 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": "",
     "Mon Aug 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": "",
-    "SETEMBRO": "",
+    "Thu Sep 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": "",
     "OUTUBRO": "",
     "NOVEMBRO": 44885.43
   },
@@ -227,7 +227,7 @@
     "Categoria": "FATURAMENTO INJETAVEIS",
     "Fri Jul 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": "",
     "Mon Aug 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": "",
-    "SETEMBRO": "",
+    "Thu Sep 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": "",
     "OUTUBRO": "",
     "NOVEMBRO": 181671.36000000002
   },
@@ -235,7 +235,7 @@
     "Categoria": "DESPESA TOTAL",
     "Fri Jul 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 231449.71,
     "Mon Aug 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 250193.8,
-    "SETEMBRO": 173778.83000000002,
+    "Thu Sep 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 173778.83000000002,
     "OUTUBRO": 283804.67000000004,
     "NOVEMBRO": 180527.28
   },
@@ -243,7 +243,7 @@
     "Categoria": "CUSTOS FIXOS TOTAL",
     "Fri Jul 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 17126.93,
     "Mon Aug 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 18261.62,
-    "SETEMBRO": 16749.25,
+    "Thu Sep 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 16749.25,
     "OUTUBRO": 18177.87,
     "NOVEMBRO": 36068.189999999995
   },
@@ -251,7 +251,7 @@
     "Categoria": "ALUGUEL",
     "Fri Jul 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 9781.55,
     "Mon Aug 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 9780.84,
-    "SETEMBRO": 9780.84,
+    "Thu Sep 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 9780.84,
     "OUTUBRO": 9777.57,
     "NOVEMBRO": 9776.85
   },
@@ -259,7 +259,7 @@
     "Categoria": "CONDOMINIO",
     "Fri Jul 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 2737.41,
     "Mon Aug 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 2904.81,
-    "SETEMBRO": 2775.04,
+    "Thu Sep 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 2775.04,
     "OUTUBRO": 2789.89,
     "NOVEMBRO": 3187.88
   },
@@ -267,7 +267,7 @@
     "Categoria": "INTERNET",
     "Fri Jul 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 155.47,
     "Mon Aug 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 155.47,
-    "SETEMBRO": 155.47,
+    "Thu Sep 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 155.47,
     "OUTUBRO": 163.55,
     "NOVEMBRO": 163.55
   },
@@ -275,7 +275,7 @@
     "Categoria": "SISTEMA",
     "Fri Jul 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 462.6,
     "Mon Aug 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 462.6,
-    "SETEMBRO": 460,
+    "Thu Sep 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 460,
     "OUTUBRO": 460.9,
     "NOVEMBRO": 461.8
   },
@@ -283,7 +283,7 @@
     "Categoria": "MARKETING",
     "Fri Jul 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 3989.9,
     "Mon Aug 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 3439.9,
-    "SETEMBRO": 2059.9,
+    "Thu Sep 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 2059.9,
     "OUTUBRO": 3467.96,
     "NOVEMBRO": 4301.9
   },
@@ -291,7 +291,7 @@
     "Categoria": "FINANCEIRO",
     "Fri Jul 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 0,
     "Mon Aug 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 1518,
-    "SETEMBRO": 1518,
+    "Thu Sep 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 1518,
     "OUTUBRO": 1518,
     "NOVEMBRO": 1518
   },
@@ -299,7 +299,7 @@
     "Categoria": "CONTADOR*",
     "Fri Jul 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": "",
     "Mon Aug 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": "",
-    "SETEMBRO": "",
+    "Thu Sep 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": "",
     "OUTUBRO": "",
     "NOVEMBRO": 825
   },
@@ -307,7 +307,7 @@
     "Categoria": "SAL?RIOS",
     "Fri Jul 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": "",
     "Mon Aug 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": "",
-    "SETEMBRO": "",
+    "Thu Sep 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": "",
     "OUTUBRO": "",
     "NOVEMBRO": 10762.74
   },
@@ -315,7 +315,7 @@
     "Categoria": "IMPOSTOS",
     "Fri Jul 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": "",
     "Mon Aug 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": "",
-    "SETEMBRO": "",
+    "Thu Sep 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": "",
     "OUTUBRO": "",
     "NOVEMBRO": 5070.47
   },
@@ -323,7 +323,7 @@
     "Categoria": "CUSTOS VARI?VEIS TOTAL",
     "Fri Jul 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 41553.8,
     "Mon Aug 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 31904,
-    "SETEMBRO": 31907,
+    "Thu Sep 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 31907,
     "OUTUBRO": 43043,
     "NOVEMBRO": 73410.78
   },
@@ -331,7 +331,7 @@
     "Categoria": "INSUMOS",
     "Fri Jul 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": "",
     "Mon Aug 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": "",
-    "SETEMBRO": "",
+    "Thu Sep 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": "",
     "OUTUBRO": "",
     "NOVEMBRO": 2719.65
   },
@@ -339,7 +339,7 @@
     "Categoria": "MEDICAMENTOS INJET?VEIS",
     "Fri Jul 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": "",
     "Mon Aug 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": "",
-    "SETEMBRO": "",
+    "Thu Sep 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": "",
     "OUTUBRO": "",
     "NOVEMBRO": 16997.26
   },
@@ -347,7 +347,7 @@
     "Categoria": "TIRZEPATIDA",
     "Fri Jul 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 41142.8,
     "Mon Aug 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 31200,
-    "SETEMBRO": 31200,
+    "Thu Sep 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 31200,
     "OUTUBRO": 41850,
     "NOVEMBRO": 27900
   },
@@ -355,7 +355,7 @@
     "Categoria": "IMPLANTES",
     "Fri Jul 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": "",
     "Mon Aug 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": "",
-    "SETEMBRO": "",
+    "Thu Sep 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": "",
     "OUTUBRO": "",
     "NOVEMBRO": 1840
   },
@@ -363,7 +363,7 @@
     "Categoria": "CARD?PIO",
     "Fri Jul 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 411,
     "Mon Aug 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 704,
-    "SETEMBRO": 707,
+    "Thu Sep 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 707,
     "OUTUBRO": 1193,
     "NOVEMBRO": 1181.4
   },
@@ -371,7 +371,7 @@
     "Categoria": "OUTROS",
     "Fri Jul 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": "",
     "Mon Aug 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": "",
-    "SETEMBRO": "",
+    "Thu Sep 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": "",
     "OUTUBRO": "",
     "NOVEMBRO": 22772.47
   },
@@ -379,7 +379,7 @@
     "Categoria": "Custos Socio Total",
     "Fri Jul 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 65607.59,
     "Mon Aug 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 84062.09,
-    "SETEMBRO": 46607.79,
+    "Thu Sep 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 46607.79,
     "OUTUBRO": 89770.4,
     "NOVEMBRO": 71048.31
   },
@@ -387,7 +387,7 @@
     "Categoria": "RETIRADA SOCIO",
     "Fri Jul 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 50000,
     "Mon Aug 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 71030,
-    "SETEMBRO": 31220,
+    "Thu Sep 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 31220,
     "OUTUBRO": 74750,
     "NOVEMBRO": 58100
   },
@@ -395,7 +395,7 @@
     "Categoria": "DESPESAS PESSOAIS - SOCIO",
     "Fri Jul 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 15607.59,
     "Mon Aug 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 13032.09,
-    "SETEMBRO": 15387.79,
+    "Thu Sep 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": 15387.79,
     "OUTUBRO": 15020.4,
     "NOVEMBRO": 12948.31
   },
@@ -403,7 +403,7 @@
     "Categoria": "PRODUTO MAIS VENDIDO",
     "Fri Jul 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": "",
     "Mon Aug 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": "",
-    "SETEMBRO": "",
+    "Thu Sep 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": "",
     "OUTUBRO": "",
     "NOVEMBRO": ""
   },
@@ -411,7 +411,7 @@
     "Categoria": "PRODUTO MAIS RENT?VEL",
     "Fri Jul 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": "",
     "Mon Aug 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": "",
-    "SETEMBRO": "",
+    "Thu Sep 25 2025 00:00:00 GMT-0300 (Brasilia Standard Time)": "",
     "OUTUBRO": "",
     "NOVEMBRO": ""
   }
