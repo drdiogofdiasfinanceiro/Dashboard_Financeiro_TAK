@@ -4,7 +4,7 @@
     "JULHO|25": "",
     "AGOSTO|25": "",
     "SETEMBRO|25": "",
-    "OUTUBRO": "23",
+    "OUTUBRO|25": "23",
     "NOVEMBRO": "19"
   },
   {
@@ -12,7 +12,7 @@
     "JULHO|25": 25612,
     "AGOSTO|25": 63975,
     "SETEMBRO|25": 42592,
-    "OUTUBRO": 47724,
+    "OUTUBRO|25": 47724,
     "NOVEMBRO": 101705
   },
   {
@@ -20,7 +20,7 @@
     "JULHO|25": 73883.71,
     "AGOSTO|25": 73883.71,
     "SETEMBRO|25": 115611.01,
-    "OUTUBRO": 97428.5,
+    "OUTUBRO|25": 97428.5,
     "NOVEMBRO": 70719.96
   },
   {
@@ -28,7 +28,7 @@
     "JULHO|25": 86509,
     "AGOSTO|25": 86509,
     "SETEMBRO|25": 115231.02,
-    "OUTUBRO": 211881.67,
+    "OUTUBRO|25": 211881.67,
     "NOVEMBRO": 281762
   },
   {
@@ -36,7 +36,7 @@
     "JULHO|25": 0,
     "AGOSTO|25": 0,
     "SETEMBRO|25": 0,
-    "OUTUBRO": 0,
+    "OUTUBRO|25": 0,
     "NOVEMBRO": 0
   },
   {
@@ -44,7 +44,7 @@
     "JULHO|25": 273877.03,
     "AGOSTO|25": 240666.09,
     "SETEMBRO|25": 258017.1,
-    "OUTUBRO": 269683.31,
+    "OUTUBRO|25": 269683.31,
     "NOVEMBRO": 226556.79
   },
   {
@@ -52,7 +52,7 @@
     "JULHO|25": 208900.53,
     "AGOSTO|25": 170216.67,
     "SETEMBRO|25": 179548.96,
-    "OUTUBRO": 223011.95,
+    "OUTUBRO|25": 223011.95,
     "NOVEMBRO": 180527.28
   },
   {
@@ -60,7 +60,7 @@
     "JULHO|25": 64976.50000000003,
     "AGOSTO|25": 70449.41999999998,
     "SETEMBRO|25": 78468.14000000001,
-    "OUTUBRO": 46671.359999999986,
+    "OUTUBRO|25": 46671.359999999986,
     "NOVEMBRO": 46029.51000000001
   },
   {
@@ -68,7 +68,7 @@
     "JULHO|25": 73883.71,
     "AGOSTO|25": 115611.01,
     "SETEMBRO|25": 97428.5,
-    "OUTUBRO": 70719.96,
+    "OUTUBRO|25": 70719.96,
     "NOVEMBRO": 96904.93
   },
   {
@@ -76,7 +76,7 @@
     "JULHO|25": 86509,
     "AGOSTO|25": 115231.02,
     "SETEMBRO|25": 211881.67,
-    "OUTUBRO": 281762,
+    "OUTUBRO|25": 281762,
     "NOVEMBRO": 301616.61
   },
   {
@@ -84,7 +84,7 @@
     "JULHO|25": 0,
     "AGOSTO|25": 0,
     "SETEMBRO|25": 0,
-    "OUTUBRO": 0,
+    "OUTUBRO|25": 0,
     "NOVEMBRO": 0
   },
   {
@@ -92,7 +92,7 @@
     "JULHO|25": 0.23724698635734448,
     "AGOSTO|25": 0.2927268232928037,
     "SETEMBRO|25": 0.3041199207339359,
-    "OUTUBRO": 0.17305987530336966,
+    "OUTUBRO|25": 0.17305987530336966,
     "NOVEMBRO": 0.20316985423389874
   },
   {
@@ -100,7 +100,7 @@
     "JULHO|25": 277,
     "AGOSTO|25": 277,
     "SETEMBRO|25": 269,
-    "OUTUBRO": 277,
+    "OUTUBRO|25": 277,
     "NOVEMBRO": 269
   },
   {
@@ -108,7 +108,7 @@
     "JULHO|25": 165,
     "AGOSTO|25": 165,
     "SETEMBRO|25": 169,
-    "OUTUBRO": 165,
+    "OUTUBRO|25": 165,
     "NOVEMBRO": 169
   },
   {
@@ -116,7 +116,7 @@
     "JULHO|25": 112,
     "AGOSTO|25": 112,
     "SETEMBRO|25": 100,
-    "OUTUBRO": 112,
+    "OUTUBRO|25": 112,
     "NOVEMBRO": 100
   },
   {
@@ -124,7 +124,7 @@
     "JULHO|25": 30,
     "AGOSTO|25": 15,
     "SETEMBRO|25": 5,
-    "OUTUBRO": 10,
+    "OUTUBRO|25": 10,
     "NOVEMBRO": 23
   },
   {
@@ -132,7 +132,7 @@
     "JULHO|25": 24,
     "AGOSTO|25": 10,
     "SETEMBRO|25": 20,
-    "OUTUBRO": 10,
+    "OUTUBRO|25": 10,
     "NOVEMBRO": 22
   },
   {
@@ -140,7 +140,7 @@
     "JULHO|25": 277,
     "AGOSTO|25": 277,
     "SETEMBRO|25": 269,
-    "OUTUBRO": 277,
+    "OUTUBRO|25": 277,
     "NOVEMBRO": 269
   },
   {
@@ -148,7 +148,7 @@
     "JULHO|25": 165,
     "AGOSTO|25": 165,
     "SETEMBRO|25": 169,
-    "OUTUBRO": 165,
+    "OUTUBRO|25": 165,
     "NOVEMBRO": 169
   },
   {
@@ -156,7 +156,7 @@
     "JULHO|25": 112,
     "AGOSTO|25": 112,
     "SETEMBRO|25": 100,
-    "OUTUBRO": 112,
+    "OUTUBRO|25": 112,
     "NOVEMBRO": 100
   },
   {
@@ -164,7 +164,7 @@
     "JULHO|25": 277,
     "AGOSTO|25": 277,
     "SETEMBRO|25": 269,
-    "OUTUBRO": 277,
+    "OUTUBRO|25": 277,
     "NOVEMBRO": 269
   },
   {
@@ -172,7 +172,7 @@
     "JULHO|25": 165,
     "AGOSTO|25": 165,
     "SETEMBRO|25": 169,
-    "OUTUBRO": 165,
+    "OUTUBRO|25": 165,
     "NOVEMBRO": 169
   },
   {
@@ -180,7 +180,7 @@
     "JULHO|25": 112,
     "AGOSTO|25": 112,
     "SETEMBRO|25": 100,
-    "OUTUBRO": 112,
+    "OUTUBRO|25": 112,
     "NOVEMBRO": 100
   },
   {
@@ -188,7 +188,7 @@
     "JULHO|25": 182200,
     "AGOSTO|25": 211487,
     "SETEMBRO|25": 270917,
-    "OUTUBRO": 247387,
+    "OUTUBRO|25": 247387,
     "NOVEMBRO": 258398
   },
   {
@@ -196,7 +196,7 @@
     "JULHO|25": 140,
     "AGOSTO|25": 175,
     "SETEMBRO|25": 187,
-    "OUTUBRO": 194,
+    "OUTUBRO|25": 194,
     "NOVEMBRO": 206
   },
   {
@@ -204,7 +204,7 @@
     "JULHO|25": 1301.4285714285713,
     "AGOSTO|25": 1208.4971428571428,
     "SETEMBRO|25": 1448.7540106951872,
-    "OUTUBRO": 1275.1907216494844,
+    "OUTUBRO|25": 1275.1907216494844,
     "NOVEMBRO": 1254.3592233009708
   },
   {
@@ -212,7 +212,7 @@
     "JULHO|25": 273877.03,
     "AGOSTO|25": 240666.09,
     "SETEMBRO|25": 258017.1,
-    "OUTUBRO": 269683.31,
+    "OUTUBRO|25": 269683.31,
     "NOVEMBRO": 226556.79
   },
   {
@@ -220,7 +220,7 @@
     "JULHO|25": "",
     "AGOSTO|25": "",
     "SETEMBRO|25": "",
-    "OUTUBRO": "",
+    "OUTUBRO|25": "",
     "NOVEMBRO": 44885.43
   },
   {
@@ -228,7 +228,7 @@
     "JULHO|25": "",
     "AGOSTO|25": "",
     "SETEMBRO|25": "",
-    "OUTUBRO": "",
+    "OUTUBRO|25": "",
     "NOVEMBRO": 181671.36000000002
   },
   {
@@ -236,7 +236,7 @@
     "JULHO|25": 231449.71,
     "AGOSTO|25": 250193.8,
     "SETEMBRO|25": 173778.83000000002,
-    "OUTUBRO": 283804.67000000004,
+    "OUTUBRO|25": 283804.67000000004,
     "NOVEMBRO": 180527.28
   },
   {
@@ -244,7 +244,7 @@
     "JULHO|25": 17126.93,
     "AGOSTO|25": 18261.62,
     "SETEMBRO|25": 16749.25,
-    "OUTUBRO": 18177.87,
+    "OUTUBRO|25": 18177.87,
     "NOVEMBRO": 36068.189999999995
   },
   {
@@ -252,7 +252,7 @@
     "JULHO|25": 9781.55,
     "AGOSTO|25": 9780.84,
     "SETEMBRO|25": 9780.84,
-    "OUTUBRO": 9777.57,
+    "OUTUBRO|25": 9777.57,
     "NOVEMBRO": 9776.85
   },
   {
@@ -260,7 +260,7 @@
     "JULHO|25": 2737.41,
     "AGOSTO|25": 2904.81,
     "SETEMBRO|25": 2775.04,
-    "OUTUBRO": 2789.89,
+    "OUTUBRO|25": 2789.89,
     "NOVEMBRO": 3187.88
   },
   {
@@ -268,7 +268,7 @@
     "JULHO|25": 155.47,
     "AGOSTO|25": 155.47,
     "SETEMBRO|25": 155.47,
-    "OUTUBRO": 163.55,
+    "OUTUBRO|25": 163.55,
     "NOVEMBRO": 163.55
   },
   {
@@ -276,7 +276,7 @@
     "JULHO|25": 462.6,
     "AGOSTO|25": 462.6,
     "SETEMBRO|25": 460,
-    "OUTUBRO": 460.9,
+    "OUTUBRO|25": 460.9,
     "NOVEMBRO": 461.8
   },
   {
@@ -284,7 +284,7 @@
     "JULHO|25": 3989.9,
     "AGOSTO|25": 3439.9,
     "SETEMBRO|25": 2059.9,
-    "OUTUBRO": 3467.96,
+    "OUTUBRO|25": 3467.96,
     "NOVEMBRO": 4301.9
   },
   {
@@ -292,7 +292,7 @@
     "JULHO|25": 0,
     "AGOSTO|25": 1518,
     "SETEMBRO|25": 1518,
-    "OUTUBRO": 1518,
+    "OUTUBRO|25": 1518,
     "NOVEMBRO": 1518
   },
   {
@@ -300,7 +300,7 @@
     "JULHO|25": "",
     "AGOSTO|25": "",
     "SETEMBRO|25": "",
-    "OUTUBRO": "",
+    "OUTUBRO|25": "",
     "NOVEMBRO": 825
   },
   {
@@ -308,7 +308,7 @@
     "JULHO|25": "",
     "AGOSTO|25": "",
     "SETEMBRO|25": "",
-    "OUTUBRO": "",
+    "OUTUBRO|25": "",
     "NOVEMBRO": 10762.74
   },
   {
@@ -316,7 +316,7 @@
     "JULHO|25": "",
     "AGOSTO|25": "",
     "SETEMBRO|25": "",
-    "OUTUBRO": "",
+    "OUTUBRO|25": "",
     "NOVEMBRO": 5070.47
   },
   {
@@ -324,7 +324,7 @@
     "JULHO|25": 41553.8,
     "AGOSTO|25": 31904,
     "SETEMBRO|25": 31907,
-    "OUTUBRO": 43043,
+    "OUTUBRO|25": 43043,
     "NOVEMBRO": 73410.78
   },
   {
@@ -332,7 +332,7 @@
     "JULHO|25": "",
     "AGOSTO|25": "",
     "SETEMBRO|25": "",
-    "OUTUBRO": "",
+    "OUTUBRO|25": "",
     "NOVEMBRO": 2719.65
   },
   {
@@ -340,7 +340,7 @@
     "JULHO|25": "",
     "AGOSTO|25": "",
     "SETEMBRO|25": "",
-    "OUTUBRO": "",
+    "OUTUBRO|25": "",
     "NOVEMBRO": 16997.26
   },
   {
@@ -348,7 +348,7 @@
     "JULHO|25": 41142.8,
     "AGOSTO|25": 31200,
     "SETEMBRO|25": 31200,
-    "OUTUBRO": 41850,
+    "OUTUBRO|25": 41850,
     "NOVEMBRO": 27900
   },
   {
@@ -356,7 +356,7 @@
     "JULHO|25": "",
     "AGOSTO|25": "",
     "SETEMBRO|25": "",
-    "OUTUBRO": "",
+    "OUTUBRO|25": "",
     "NOVEMBRO": 1840
   },
   {
@@ -364,7 +364,7 @@
     "JULHO|25": 411,
     "AGOSTO|25": 704,
     "SETEMBRO|25": 707,
-    "OUTUBRO": 1193,
+    "OUTUBRO|25": 1193,
     "NOVEMBRO": 1181.4
   },
   {
@@ -372,7 +372,7 @@
     "JULHO|25": "",
     "AGOSTO|25": "",
     "SETEMBRO|25": "",
-    "OUTUBRO": "",
+    "OUTUBRO|25": "",
     "NOVEMBRO": 22772.47
   },
   {
@@ -380,7 +380,7 @@
     "JULHO|25": 65607.59,
     "AGOSTO|25": 84062.09,
     "SETEMBRO|25": 46607.79,
-    "OUTUBRO": 89770.4,
+    "OUTUBRO|25": 89770.4,
     "NOVEMBRO": 71048.31
   },
   {
@@ -388,7 +388,7 @@
     "JULHO|25": 50000,
     "AGOSTO|25": 71030,
     "SETEMBRO|25": 31220,
-    "OUTUBRO": 74750,
+    "OUTUBRO|25": 74750,
     "NOVEMBRO": 58100
   },
   {
@@ -396,7 +396,7 @@
     "JULHO|25": 15607.59,
     "AGOSTO|25": 13032.09,
     "SETEMBRO|25": 15387.79,
-    "OUTUBRO": 15020.4,
+    "OUTUBRO|25": 15020.4,
     "NOVEMBRO": 12948.31
   },
   {
@@ -404,7 +404,7 @@
     "JULHO|25": "",
     "AGOSTO|25": "",
     "SETEMBRO|25": "",
-    "OUTUBRO": "",
+    "OUTUBRO|25": "",
     "NOVEMBRO": ""
   },
   {
@@ -412,7 +412,7 @@
     "JULHO|25": "",
     "AGOSTO|25": "",
     "SETEMBRO|25": "",
-    "OUTUBRO": "",
+    "OUTUBRO|25": "",
     "NOVEMBRO": ""
   }
 ]
