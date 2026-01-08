@@ -262,7 +262,7 @@
   },
   {
     "Categoria": "DESPESA TOTAL",
-    "JULHO|25": 268922.64,
+    "JULHO|25": 268097.64,
     "AGOSTO|25": 269136.61,
     "SETEMBRO|25": 209837.30000000002,
     "OUTUBRO|25": 311051.82,
@@ -271,7 +271,7 @@
   },
   {
     "Categoria": "CUSTOS FIXOS TOTAL",
-    "JULHO|25": 39616.22,
+    "JULHO|25": 38791.22,
     "AGOSTO|25": 37204.43,
     "SETEMBRO|25": 52807.72,
     "OUTUBRO|25": 45425.02,
@@ -334,7 +334,7 @@
   },
   {
     "Categoria": "CONTADOR*",
-    "JULHO|25": 825,
+    "JULHO|25": 0,
     "AGOSTO|25": 825,
     "SETEMBRO|25": 825,
     "OUTUBRO|25": 825,
