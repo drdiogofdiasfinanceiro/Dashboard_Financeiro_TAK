@@ -267,7 +267,7 @@
     "SETEMBRO|25": 173778.83000000002,
     "OUTUBRO|25": 283804.67000000004,
     "NOVEMBRO|25": 180527.28,
-    "DEZEMBRO|25": 0
+    "DEZEMBRO|25": "#REF!"
   },
   {
     "Categoria": "CUSTOS FIXOS TOTAL",
@@ -285,7 +285,7 @@
     "SETEMBRO|25": 9780.84,
     "OUTUBRO|25": 9777.57,
     "NOVEMBRO|25": 9776.85,
-    "DEZEMBRO|25": 0
+    "DEZEMBRO|25": ""
   },
   {
     "Categoria": "CONDOMINIO",
