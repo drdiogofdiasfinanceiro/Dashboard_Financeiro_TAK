@@ -267,7 +267,7 @@
     "SETEMBRO|25": 173778.83000000002,
     "OUTUBRO|25": 283804.67000000004,
     "NOVEMBRO|25": 180527.28,
-    "DEZEMBRO|25": 71048.31
+    "DEZEMBRO|25": 0
   },
   {
     "Categoria": "CUSTOS FIXOS TOTAL",
@@ -429,7 +429,7 @@
     "SETEMBRO|25": 46607.79,
     "OUTUBRO|25": 89770.4,
     "NOVEMBRO|25": 71048.31,
-    "DEZEMBRO|25": 71048.31
+    "DEZEMBRO|25": 0
   },
   {
     "Categoria": "RETIRADA SOCIO",
@@ -438,7 +438,7 @@
     "SETEMBRO|25": 31220,
     "OUTUBRO|25": 74750,
     "NOVEMBRO|25": 58100,
-    "DEZEMBRO|25": 58100
+    "DEZEMBRO|25": 0
   },
   {
     "Categoria": "DESPESAS PESSOAIS - SOCIO",
@@ -447,7 +447,7 @@
     "SETEMBRO|25": 15387.79,
     "OUTUBRO|25": 15020.4,
     "NOVEMBRO|25": 12948.31,
-    "DEZEMBRO|25": 12948.31
+    "DEZEMBRO|25": 0
   },
   {
     "Categoria": "PRODUTO MAIS VENDIDO",
