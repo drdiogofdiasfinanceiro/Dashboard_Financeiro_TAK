@@ -211,8 +211,8 @@
   },
   {
     "Categoria": "HOMENS",
-    "JULHO|25": 165,
-    "AGOSTO|25": 165,
+    "JULHO|25": "",
+    "AGOSTO|25": "",
     "SETEMBRO|25": "",
     "OUTUBRO|25": 165,
     "NOVEMBRO|25": 169,
@@ -222,8 +222,8 @@
   {
     "Categoria": "MULHERES",
     "JULHO|25": 112,
-    "AGOSTO|25": 112,
-    "SETEMBRO|25": 100,
+    "AGOSTO|25": "",
+    "SETEMBRO|25": "",
     "OUTUBRO|25": 112,
     "NOVEMBRO|25": 100,
     "DEZEMBRO|25": 115,
