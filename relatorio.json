@@ -222,7 +222,7 @@
     "SETEMBRO|25": 187,
     "OUTUBRO|25": 194,
     "NOVEMBRO|25": 206,
-    "DEZEMBRO|25": 206
+    "DEZEMBRO|25": 0
   },
   {
     "Categoria": "TICKET M?DIO - STONE",
@@ -231,7 +231,7 @@
     "SETEMBRO|25": 1448.7540106951872,
     "OUTUBRO|25": 1275.1907216494844,
     "NOVEMBRO|25": 1254.3592233009708,
-    "DEZEMBRO|25": 0
+    "DEZEMBRO|25": "#DIV/0!"
   },
   {
     "Categoria": "FATURAMENTO TOTAL",
