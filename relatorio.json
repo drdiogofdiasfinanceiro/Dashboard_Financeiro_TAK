@@ -123,7 +123,7 @@
     "SETEMBRO|25": 169,
     "OUTUBRO|25": 165,
     "NOVEMBRO|25": 169,
-    "DEZEMBRO|25": 169
+    "DEZEMBRO|25": 0
   },
   {
     "Categoria": "CONSULTAS MULHERES",
@@ -132,7 +132,7 @@
     "SETEMBRO|25": 100,
     "OUTUBRO|25": 112,
     "NOVEMBRO|25": 100,
-    "DEZEMBRO|25": 100
+    "DEZEMBRO|25": 0
   },
   {
     "Categoria": "CONSULTAS HOMENS NOVOS",
