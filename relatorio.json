@@ -154,10 +154,10 @@
   },
   {
     "Categoria": "INJETAVEIS TOTAL",
-    "JULHO|25": 174,
-    "AGOSTO|25": 0,
-    "SETEMBRO|25": 0,
-    "OUTUBRO|25": 0,
+    "JULHO|25": "",
+    "AGOSTO|25": "",
+    "SETEMBRO|25": "",
+    "OUTUBRO|25": "",
     "NOVEMBRO|25": 269,
     "DEZEMBRO|25": 254
   },
@@ -181,7 +181,7 @@
   },
   {
     "Categoria": "N? ATENDIMENTOS",
-    "JULHO|25": 235,
+    "JULHO|25": 61,
     "AGOSTO|25": 277,
     "SETEMBRO|25": 269,
     "OUTUBRO|25": 277,
