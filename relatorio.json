@@ -267,7 +267,7 @@
     "OUTUBRO|25": 269683.31,
     "NOVEMBRO|25": 226556.79,
     "DEZEMBRO|25": 259643.16,
-    "JANEIRO|26": ""
+    "JANEIRO|26": 201753.67
   },
   {
     "Categoria": "FATURAMENTO DE CONSULTAS",
@@ -277,7 +277,7 @@
     "OUTUBRO|25": 46434,
     "NOVEMBRO|25": 44885.43,
     "DEZEMBRO|25": 42577,
-    "JANEIRO|26": ""
+    "JANEIRO|26": 42577
   },
   {
     "Categoria": "FATURAMENTO INJETAVEIS",
@@ -287,7 +287,7 @@
     "OUTUBRO|25": 223249.31,
     "NOVEMBRO|25": 181671.36000000002,
     "DEZEMBRO|25": 217066.16,
-    "JANEIRO|26": ""
+    "JANEIRO|26": 159176.67
   },
   {
     "Categoria": "DESPESA TOTAL",
@@ -297,7 +297,7 @@
     "OUTUBRO|25": 223011.94999999998,
     "NOVEMBRO|25": 180527.28,
     "DEZEMBRO|25": 226117.21,
-    "JANEIRO|26": ""
+    "JANEIRO|26": 226117.21
   },
   {
     "Categoria": "CUSTOS FIXOS TOTAL",
@@ -307,7 +307,7 @@
     "OUTUBRO|25": 44600.02,
     "NOVEMBRO|25": 48745.659999999996,
     "DEZEMBRO|25": 66274.76,
-    "JANEIRO|26": ""
+    "JANEIRO|26": 66274.76
   },
   {
     "Categoria": "ALUGUEL",
@@ -317,7 +317,7 @@
     "OUTUBRO|25": 9777.57,
     "NOVEMBRO|25": 9776.85,
     "DEZEMBRO|25": 9766.78,
-    "JANEIRO|26": ""
+    "JANEIRO|26": 9766.78
   },
   {
     "Categoria": "CONDOMINIO",
@@ -327,7 +327,7 @@
     "OUTUBRO|25": 2789.89,
     "NOVEMBRO|25": 3187.88,
     "DEZEMBRO|25": 2997.05,
-    "JANEIRO|26": ""
+    "JANEIRO|26": 2997.05
   },
   {
     "Categoria": "INTERNET",
@@ -337,7 +337,7 @@
     "OUTUBRO|25": 163.55,
     "NOVEMBRO|25": 163.55,
     "DEZEMBRO|25": 240.07,
-    "JANEIRO|26": ""
+    "JANEIRO|26": 240.07
   },
   {
     "Categoria": "SISTEMA",
@@ -347,7 +347,7 @@
     "OUTUBRO|25": 460.9,
     "NOVEMBRO|25": 461.8,
     "DEZEMBRO|25": 460.2,
-    "JANEIRO|26": ""
+    "JANEIRO|26": 460.2
   },
   {
     "Categoria": "MARKETING",
@@ -357,7 +357,7 @@
     "OUTUBRO|25": 3467.96,
     "NOVEMBRO|25": 4301.9,
     "DEZEMBRO|25": 5859.9,
-    "JANEIRO|26": ""
+    "JANEIRO|26": 5859.9
   },
   {
     "Categoria": "FINANCEIRO",
@@ -367,7 +367,7 @@
     "OUTUBRO|25": 1518,
     "NOVEMBRO|25": 1518,
     "DEZEMBRO|25": 1518,
-    "JANEIRO|26": ""
+    "JANEIRO|26": 1518
   },
   {
     "Categoria": "SAL?RIOS",
@@ -377,7 +377,7 @@
     "OUTUBRO|25": 21999.91,
     "NOVEMBRO|25": 24265.21,
     "DEZEMBRO|25": 34593.93,
-    "JANEIRO|26": ""
+    "JANEIRO|26": 34593.93
   },
   {
     "Categoria": "IMPOSTOS",
@@ -387,7 +387,7 @@
     "OUTUBRO|25": 4422.24,
     "NOVEMBRO|25": 5070.47,
     "DEZEMBRO|25": 10838.83,
-    "JANEIRO|26": ""
+    "JANEIRO|26": 10838.83
   },
   {
     "Categoria": "CUSTOS VARI?VEIS TOTAL",
@@ -397,7 +397,7 @@
     "OUTUBRO|25": 88641.53,
     "NOVEMBRO|25": 60733.310000000005,
     "DEZEMBRO|25": 94997.54000000001,
-    "JANEIRO|26": ""
+    "JANEIRO|26": 94997.54000000001
   },
   {
     "Categoria": "INSUMOS",
@@ -407,7 +407,7 @@
     "OUTUBRO|25": "",
     "NOVEMBRO|25": 2719.65,
     "DEZEMBRO|25": 4232.84,
-    "JANEIRO|26": ""
+    "JANEIRO|26": 4232.84
   },
   {
     "Categoria": "MEDICAMENTOS INJET?VEIS",
@@ -417,7 +417,7 @@
     "OUTUBRO|25": "",
     "NOVEMBRO|25": 16997.26,
     "DEZEMBRO|25": 8978.3,
-    "JANEIRO|26": ""
+    "JANEIRO|26": 8978.3
   },
   {
     "Categoria": "TIRZEPATIDA",
@@ -427,7 +427,7 @@
     "OUTUBRO|25": 41850,
     "NOVEMBRO|25": 27900,
     "DEZEMBRO|25": 55817,
-    "JANEIRO|26": ""
+    "JANEIRO|26": 55817
   },
   {
     "Categoria": "IMPLANTES",
@@ -437,7 +437,7 @@
     "OUTUBRO|25": "",
     "NOVEMBRO|25": 1840,
     "DEZEMBRO|25": 13290.31,
-    "JANEIRO|26": ""
+    "JANEIRO|26": 13290.31
   },
   {
     "Categoria": "CARD?PIO",
@@ -447,7 +447,7 @@
     "OUTUBRO|25": 1193,
     "NOVEMBRO|25": 1181.4,
     "DEZEMBRO|25": 1264.96,
-    "JANEIRO|26": ""
+    "JANEIRO|26": 1264.96
   },
   {
     "Categoria": "OUTROS",
@@ -457,7 +457,7 @@
     "OUTUBRO|25": 45598.53,
     "NOVEMBRO|25": 10095,
     "DEZEMBRO|25": 11414.13,
-    "JANEIRO|26": ""
+    "JANEIRO|26": 11414.13
   },
   {
     "Categoria": "Custos Socio Total",
@@ -467,7 +467,7 @@
     "OUTUBRO|25": 89770.4,
     "NOVEMBRO|25": 71048.31,
     "DEZEMBRO|25": 64844.91,
-    "JANEIRO|26": ""
+    "JANEIRO|26": 64844.91
   },
   {
     "Categoria": "RETIRADA SOCIO",
@@ -477,7 +477,7 @@
     "OUTUBRO|25": 74750,
     "NOVEMBRO|25": 58100,
     "DEZEMBRO|25": 54670,
-    "JANEIRO|26": ""
+    "JANEIRO|26": 54670
   },
   {
     "Categoria": "DESPESAS PESSOAIS - SOCIO",
@@ -487,7 +487,7 @@
     "OUTUBRO|25": 15020.4,
     "NOVEMBRO|25": 12948.31,
     "DEZEMBRO|25": 10174.91,
-    "JANEIRO|26": ""
+    "JANEIRO|26": 10174.91
   },
   {
     "Categoria": "PRODUTO MAIS VENDIDO",
