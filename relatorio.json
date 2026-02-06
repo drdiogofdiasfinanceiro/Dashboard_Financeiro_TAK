@@ -297,7 +297,7 @@
     "OUTUBRO|25": 223011.94999999998,
     "NOVEMBRO|25": 180527.28,
     "DEZEMBRO|25": 226117.21,
-    "JANEIRO|26": 90814.31
+    "JANEIRO|26": 76259.04000000001
   },
   {
     "Categoria": "CUSTOS FIXOS TOTAL",
@@ -397,7 +397,7 @@
     "OUTUBRO|25": 88641.53,
     "NOVEMBRO|25": 60733.310000000005,
     "DEZEMBRO|25": 94997.54000000001,
-    "JANEIRO|26": 25969.4
+    "JANEIRO|26": 11414.13
   },
   {
     "Categoria": "INSUMOS",
@@ -437,7 +437,7 @@
     "OUTUBRO|25": "",
     "NOVEMBRO|25": 1840,
     "DEZEMBRO|25": 13290.31,
-    "JANEIRO|26": 13290.31
+    "JANEIRO|26": 0
   },
   {
     "Categoria": "CARD?PIO",
@@ -447,7 +447,7 @@
     "OUTUBRO|25": 1193,
     "NOVEMBRO|25": 1181.4,
     "DEZEMBRO|25": 1264.96,
-    "JANEIRO|26": 1264.96
+    "JANEIRO|26": 0
   },
   {
     "Categoria": "OUTROS",
