@@ -297,7 +297,7 @@
     "OUTUBRO|25": 223011.94999999998,
     "NOVEMBRO|25": 180527.28,
     "DEZEMBRO|25": 226117.21,
-    "JANEIRO|26": 206793.21000000002
+    "JANEIRO|26": 170681.28000000003
   },
   {
     "Categoria": "CUSTOS FIXOS TOTAL",
@@ -307,7 +307,7 @@
     "OUTUBRO|25": 44600.02,
     "NOVEMBRO|25": 48745.659999999996,
     "DEZEMBRO|25": 66274.76,
-    "JANEIRO|26": 46950.76
+    "JANEIRO|26": 10838.83
   },
   {
     "Categoria": "ALUGUEL",
@@ -367,7 +367,7 @@
     "OUTUBRO|25": 1518,
     "NOVEMBRO|25": 1518,
     "DEZEMBRO|25": 1518,
-    "JANEIRO|26": 1518
+    "JANEIRO|26": 0
   },
   {
     "Categoria": "SAL?RIOS",
@@ -377,7 +377,7 @@
     "OUTUBRO|25": 21999.91,
     "NOVEMBRO|25": 24265.21,
     "DEZEMBRO|25": 34593.93,
-    "JANEIRO|26": 34593.93
+    "JANEIRO|26": 0
   },
   {
     "Categoria": "IMPOSTOS",
