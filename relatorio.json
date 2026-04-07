@@ -152,8 +152,8 @@
     "NOVEMBRO|25": 90,
     "DEZEMBRO|25": 68,
     "JANEIRO|26": 63,
-    "FEVEREIRO|26": 63,
-    "MAR?O|26": 63
+    "FEVEREIRO|26": "",
+    "MAR?O|26": ""
   },
   {
     "Categoria": "CONSULTAS HOMENS",
@@ -164,8 +164,8 @@
     "NOVEMBRO|25": 45,
     "DEZEMBRO|25": 44,
     "JANEIRO|26": 34,
-    "FEVEREIRO|26": 34,
-    "MAR?O|26": 34
+    "FEVEREIRO|26": "",
+    "MAR?O|26": ""
   },
   {
     "Categoria": "CONSULTAS MULHERES",
@@ -176,8 +176,8 @@
     "NOVEMBRO|25": 45,
     "DEZEMBRO|25": 24,
     "JANEIRO|26": 29,
-    "FEVEREIRO|26": 29,
-    "MAR?O|26": 29
+    "FEVEREIRO|26": "",
+    "MAR?O|26": ""
   },
   {
     "Categoria": "CONSULTAS HOMENS NOVOS",
@@ -188,8 +188,8 @@
     "NOVEMBRO|25": 11,
     "DEZEMBRO|25": 7,
     "JANEIRO|26": 9,
-    "FEVEREIRO|26": 9,
-    "MAR?O|26": 9
+    "FEVEREIRO|26": "",
+    "MAR?O|26": ""
   },
   {
     "Categoria": "CONSULTAS MULHERES NOVAS",
@@ -200,8 +200,8 @@
     "NOVEMBRO|25": 14,
     "DEZEMBRO|25": 1,
     "JANEIRO|26": 11,
-    "FEVEREIRO|26": 11,
-    "MAR?O|26": 11
+    "FEVEREIRO|26": "",
+    "MAR?O|26": ""
   },
   {
     "Categoria": "INJETAVEIS TOTAL",
@@ -212,8 +212,8 @@
     "NOVEMBRO|25": 269,
     "DEZEMBRO|25": 254,
     "JANEIRO|26": 174,
-    "FEVEREIRO|26": 174,
-    "MAR?O|26": 174
+    "FEVEREIRO|26": "",
+    "MAR?O|26": ""
   },
   {
     "Categoria": "INJETAVEIS HOMENS",
@@ -224,8 +224,8 @@
     "NOVEMBRO|25": 169,
     "DEZEMBRO|25": 163,
     "JANEIRO|26": 108,
-    "FEVEREIRO|26": 108,
-    "MAR?O|26": 108
+    "FEVEREIRO|26": "",
+    "MAR?O|26": ""
   },
   {
     "Categoria": "INJETAVEIS MULHERES",
@@ -236,8 +236,8 @@
     "NOVEMBRO|25": 100,
     "DEZEMBRO|25": 91,
     "JANEIRO|26": 66,
-    "FEVEREIRO|26": 66,
-    "MAR?O|26": 66
+    "FEVEREIRO|26": "",
+    "MAR?O|26": ""
   },
   {
     "Categoria": "N? ATENDIMENTOS",
@@ -248,8 +248,8 @@
     "NOVEMBRO|25": 269,
     "DEZEMBRO|25": 322,
     "JANEIRO|26": 237,
-    "FEVEREIRO|26": 237,
-    "MAR?O|26": 237
+    "FEVEREIRO|26": "",
+    "MAR?O|26": ""
   },
   {
     "Categoria": "HOMENS",
@@ -260,8 +260,8 @@
     "NOVEMBRO|25": 169,
     "DEZEMBRO|25": 207,
     "JANEIRO|26": 142,
-    "FEVEREIRO|26": 142,
-    "MAR?O|26": 142
+    "FEVEREIRO|26": "",
+    "MAR?O|26": ""
   },
   {
     "Categoria": "MULHERES",
@@ -272,8 +272,8 @@
     "NOVEMBRO|25": 100,
     "DEZEMBRO|25": 115,
     "JANEIRO|26": 95,
-    "FEVEREIRO|26": 95,
-    "MAR?O|26": 95
+    "FEVEREIRO|26": "",
+    "MAR?O|26": ""
   },
   {
     "Categoria": "VENDA TOTAL - STONE",
