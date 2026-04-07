@@ -296,8 +296,8 @@
     "NOVEMBRO|25": 206,
     "DEZEMBRO|25": 181,
     "JANEIRO|26": 142,
-    "FEVEREIRO|26": 142,
-    "MAR?O|26": 142
+    "FEVEREIRO|26": "",
+    "MAR?O|26": ""
   },
   {
     "Categoria": "TICKET M?DIO - STONE",
@@ -308,8 +308,8 @@
     "NOVEMBRO|25": 1254.3592233009708,
     "DEZEMBRO|25": 1051.7955801104972,
     "JANEIRO|26": 1023.81,
-    "FEVEREIRO|26": 1023.81,
-    "MAR?O|26": 1023.81
+    "FEVEREIRO|26": "",
+    "MAR?O|26": ""
   },
   {
     "Categoria": "FATURAMENTO TOTAL",
@@ -332,7 +332,7 @@
     "NOVEMBRO|25": 44885.43,
     "DEZEMBRO|25": 42577,
     "JANEIRO|26": 49225.67,
-    "FEVEREIRO|26": 49225.67,
+    "FEVEREIRO|26": 0,
     "MAR?O|26": 49225.67
   },
   {
@@ -344,7 +344,7 @@
     "NOVEMBRO|25": 181671.36000000002,
     "DEZEMBRO|25": 217066.16,
     "JANEIRO|26": 152528,
-    "FEVEREIRO|26": 131845.22999999998,
+    "FEVEREIRO|26": 0,
     "MAR?O|26": 152528
   },
   {
