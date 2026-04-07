@@ -9,7 +9,7 @@
     "DEZEMBRO|25": "18",
     "JANEIRO|26": "17",
     "FEVEREIRO|26": "",
-    "FEVEREIRO|27": ""
+    "MAR?O|26": ""
   },
   {
     "Categoria": "FATURAMENTO (NFSe)",
@@ -21,7 +21,7 @@
     "DEZEMBRO|25": 45662,
     "JANEIRO|26": 30760,
     "FEVEREIRO|26": "",
-    "FEVEREIRO|27": ""
+    "MAR?O|26": ""
   },
   {
     "Categoria": "SALDO INICIAL UNICRED",
@@ -33,7 +33,7 @@
     "DEZEMBRO|25": 96904.93,
     "JANEIRO|26": 67313.31,
     "FEVEREIRO|26": "",
-    "FEVEREIRO|27": ""
+    "MAR?O|26": ""
   },
   {
     "Categoria": "SALDO INICIAL STONE",
@@ -45,7 +45,7 @@
     "DEZEMBRO|25": 301616.61,
     "JANEIRO|26": 364734.18,
     "FEVEREIRO|26": "",
-    "FEVEREIRO|27": ""
+    "MAR?O|26": ""
   },
   {
     "Categoria": "SALDO INICIAL CAIXINHA",
@@ -57,7 +57,7 @@
     "DEZEMBRO|25": 0,
     "JANEIRO|26": 0,
     "FEVEREIRO|26": "",
-    "FEVEREIRO|27": ""
+    "MAR?O|26": ""
   },
   {
     "Categoria": "RECEITAS",
@@ -69,7 +69,7 @@
     "DEZEMBRO|25": 259643.16,
     "JANEIRO|26": 201753.67,
     "FEVEREIRO|26": "",
-    "FEVEREIRO|27": ""
+    "MAR?O|26": ""
   },
   {
     "Categoria": "DESPESAS",
@@ -81,7 +81,7 @@
     "DEZEMBRO|25": 226117.21,
     "JANEIRO|26": 190184.76,
     "FEVEREIRO|26": "",
-    "FEVEREIRO|27": ""
+    "MAR?O|26": ""
   },
   {
     "Categoria": "SALDO DO PER?ODO",
@@ -93,7 +93,7 @@
     "DEZEMBRO|25": 33525.95000000001,
     "JANEIRO|26": 11568.910000000003,
     "FEVEREIRO|26": "",
-    "FEVEREIRO|27": ""
+    "MAR?O|26": ""
   },
   {
     "Categoria": "SALDO FINAL UNICRED",
@@ -105,7 +105,7 @@
     "DEZEMBRO|25": 67313.31,
     "JANEIRO|26": 26790.67,
     "FEVEREIRO|26": "",
-    "FEVEREIRO|27": ""
+    "MAR?O|26": ""
   },
   {
     "Categoria": "SALDO FINAL STONE",
@@ -117,7 +117,7 @@
     "DEZEMBRO|25": 364734.18,
     "JANEIRO|26": 416825.73,
     "FEVEREIRO|26": "",
-    "FEVEREIRO|27": ""
+    "MAR?O|26": ""
   },
   {
     "Categoria": "CAIXINHA",
@@ -129,7 +129,7 @@
     "DEZEMBRO|25": 0,
     "JANEIRO|26": 0,
     "FEVEREIRO|26": "",
-    "FEVEREIRO|27": ""
+    "MAR?O|26": ""
   },
   {
     "Categoria": "LUCRO LIQUIDO %",
@@ -141,7 +141,7 @@
     "DEZEMBRO|25": 0.12912317813417465,
     "JANEIRO|26": 0.05734175740148867,
     "FEVEREIRO|26": "",
-    "FEVEREIRO|27": ""
+    "MAR?O|26": ""
   },
   {
     "Categoria": "CONSULTAS TOTAL",
@@ -153,7 +153,7 @@
     "DEZEMBRO|25": 68,
     "JANEIRO|26": 63,
     "FEVEREIRO|26": "",
-    "FEVEREIRO|27": ""
+    "MAR?O|26": ""
   },
   {
     "Categoria": "CONSULTAS HOMENS",
@@ -165,7 +165,7 @@
     "DEZEMBRO|25": 44,
     "JANEIRO|26": 34,
     "FEVEREIRO|26": "",
-    "FEVEREIRO|27": ""
+    "MAR?O|26": ""
   },
   {
     "Categoria": "CONSULTAS MULHERES",
@@ -177,7 +177,7 @@
     "DEZEMBRO|25": 24,
     "JANEIRO|26": 29,
     "FEVEREIRO|26": "",
-    "FEVEREIRO|27": ""
+    "MAR?O|26": ""
   },
   {
     "Categoria": "CONSULTAS HOMENS NOVOS",
@@ -189,7 +189,7 @@
     "DEZEMBRO|25": 7,
     "JANEIRO|26": 9,
     "FEVEREIRO|26": "",
-    "FEVEREIRO|27": ""
+    "MAR?O|26": ""
   },
   {
     "Categoria": "CONSULTAS MULHERES NOVAS",
@@ -201,7 +201,7 @@
     "DEZEMBRO|25": 1,
     "JANEIRO|26": 11,
     "FEVEREIRO|26": "",
-    "FEVEREIRO|27": ""
+    "MAR?O|26": ""
   },
   {
     "Categoria": "INJETAVEIS TOTAL",
@@ -213,7 +213,7 @@
     "DEZEMBRO|25": 254,
     "JANEIRO|26": 174,
     "FEVEREIRO|26": "",
-    "FEVEREIRO|27": ""
+    "MAR?O|26": ""
   },
   {
     "Categoria": "INJETAVEIS HOMENS",
@@ -225,7 +225,7 @@
     "DEZEMBRO|25": 163,
     "JANEIRO|26": 108,
     "FEVEREIRO|26": "",
-    "FEVEREIRO|27": ""
+    "MAR?O|26": ""
   },
   {
     "Categoria": "INJETAVEIS MULHERES",
@@ -237,7 +237,7 @@
     "DEZEMBRO|25": 91,
     "JANEIRO|26": 66,
     "FEVEREIRO|26": "",
-    "FEVEREIRO|27": ""
+    "MAR?O|26": ""
   },
   {
     "Categoria": "N? ATENDIMENTOS",
@@ -249,7 +249,7 @@
     "DEZEMBRO|25": 322,
     "JANEIRO|26": 237,
     "FEVEREIRO|26": "",
-    "FEVEREIRO|27": ""
+    "MAR?O|26": ""
   },
   {
     "Categoria": "HOMENS",
@@ -261,7 +261,7 @@
     "DEZEMBRO|25": 207,
     "JANEIRO|26": 142,
     "FEVEREIRO|26": "",
-    "FEVEREIRO|27": ""
+    "MAR?O|26": ""
   },
   {
     "Categoria": "MULHERES",
@@ -273,7 +273,7 @@
     "DEZEMBRO|25": 115,
     "JANEIRO|26": 95,
     "FEVEREIRO|26": "",
-    "FEVEREIRO|27": ""
+    "MAR?O|26": ""
   },
   {
     "Categoria": "VENDA TOTAL - STONE",
@@ -285,7 +285,7 @@
     "DEZEMBRO|25": 190375,
     "JANEIRO|26": 145380,
     "FEVEREIRO|26": "",
-    "FEVEREIRO|27": ""
+    "MAR?O|26": ""
   },
   {
     "Categoria": "N?MERO VENDAS - STONE",
@@ -297,7 +297,7 @@
     "DEZEMBRO|25": 181,
     "JANEIRO|26": 142,
     "FEVEREIRO|26": "",
-    "FEVEREIRO|27": ""
+    "MAR?O|26": ""
   },
   {
     "Categoria": "TICKET M?DIO - STONE",
@@ -309,7 +309,7 @@
     "DEZEMBRO|25": 1051.7955801104972,
     "JANEIRO|26": 1023.81,
     "FEVEREIRO|26": "",
-    "FEVEREIRO|27": ""
+    "MAR?O|26": ""
   },
   {
     "Categoria": "FATURAMENTO TOTAL",
@@ -321,7 +321,7 @@
     "DEZEMBRO|25": 259643.16,
     "JANEIRO|26": 201753.67,
     "FEVEREIRO|26": "",
-    "FEVEREIRO|27": ""
+    "MAR?O|26": ""
   },
   {
     "Categoria": "FATURAMENTO DE CONSULTAS",
@@ -333,7 +333,7 @@
     "DEZEMBRO|25": 42577,
     "JANEIRO|26": 49225.67,
     "FEVEREIRO|26": "",
-    "FEVEREIRO|27": ""
+    "MAR?O|26": ""
   },
   {
     "Categoria": "FATURAMENTO INJETAVEIS",
@@ -345,7 +345,7 @@
     "DEZEMBRO|25": 217066.16,
     "JANEIRO|26": 152528,
     "FEVEREIRO|26": "",
-    "FEVEREIRO|27": ""
+    "MAR?O|26": ""
   },
   {
     "Categoria": "DESPESA TOTAL",
@@ -357,7 +357,7 @@
     "DEZEMBRO|25": 226117.21,
     "JANEIRO|26": 186329.23,
     "FEVEREIRO|26": "",
-    "FEVEREIRO|27": ""
+    "MAR?O|26": ""
   },
   {
     "Categoria": "CUSTOS FIXOS TOTAL",
@@ -369,7 +369,7 @@
     "DEZEMBRO|25": 66274.76,
     "JANEIRO|26": 52657.76,
     "FEVEREIRO|26": "",
-    "FEVEREIRO|27": ""
+    "MAR?O|26": ""
   },
   {
     "Categoria": "ALUGUEL",
@@ -381,7 +381,7 @@
     "DEZEMBRO|25": 9766.78,
     "JANEIRO|26": 9176.02,
     "FEVEREIRO|26": "",
-    "FEVEREIRO|27": ""
+    "MAR?O|26": ""
   },
   {
     "Categoria": "CONDOMINIO",
@@ -393,7 +393,7 @@
     "DEZEMBRO|25": 2997.05,
     "JANEIRO|26": 2997.05,
     "FEVEREIRO|26": "",
-    "FEVEREIRO|27": ""
+    "MAR?O|26": ""
   },
   {
     "Categoria": "INTERNET",
@@ -405,7 +405,7 @@
     "DEZEMBRO|25": 240.07,
     "JANEIRO|26": 163.55,
     "FEVEREIRO|26": "",
-    "FEVEREIRO|27": ""
+    "MAR?O|26": ""
   },
   {
     "Categoria": "SISTEMA",
@@ -417,7 +417,7 @@
     "DEZEMBRO|25": 460.2,
     "JANEIRO|26": 483.84,
     "FEVEREIRO|26": "",
-    "FEVEREIRO|27": ""
+    "MAR?O|26": ""
   },
   {
     "Categoria": "MARKETING",
@@ -429,7 +429,7 @@
     "DEZEMBRO|25": 5859.9,
     "JANEIRO|26": 4921.780000000001,
     "FEVEREIRO|26": "",
-    "FEVEREIRO|27": ""
+    "MAR?O|26": ""
   },
   {
     "Categoria": "FINANCEIRO",
@@ -441,7 +441,7 @@
     "DEZEMBRO|25": 1518,
     "JANEIRO|26": 1518,
     "FEVEREIRO|26": "",
-    "FEVEREIRO|27": ""
+    "MAR?O|26": ""
   },
   {
     "Categoria": "SAL?RIOS",
@@ -453,7 +453,7 @@
     "DEZEMBRO|25": 34593.93,
     "JANEIRO|26": 26725.160000000003,
     "FEVEREIRO|26": "",
-    "FEVEREIRO|27": ""
+    "MAR?O|26": ""
   },
   {
     "Categoria": "IMPOSTOS",
@@ -465,7 +465,7 @@
     "DEZEMBRO|25": 10838.83,
     "JANEIRO|26": 6672.36,
     "FEVEREIRO|26": "",
-    "FEVEREIRO|27": ""
+    "MAR?O|26": ""
   },
   {
     "Categoria": "CUSTOS VARI?VEIS TOTAL",
@@ -477,7 +477,7 @@
     "DEZEMBRO|25": 94997.54000000001,
     "JANEIRO|26": 64252.82000000001,
     "FEVEREIRO|26": "",
-    "FEVEREIRO|27": ""
+    "MAR?O|26": ""
   },
   {
     "Categoria": "INSUMOS",
@@ -489,7 +489,7 @@
     "DEZEMBRO|25": 4232.84,
     "JANEIRO|26": 1273.12,
     "FEVEREIRO|26": "",
-    "FEVEREIRO|27": ""
+    "MAR?O|26": ""
   },
   {
     "Categoria": "MEDICAMENTOS INJET?VEIS",
@@ -501,7 +501,7 @@
     "DEZEMBRO|25": 8978.3,
     "JANEIRO|26": 7112.4,
     "FEVEREIRO|26": "",
-    "FEVEREIRO|27": ""
+    "MAR?O|26": ""
   },
   {
     "Categoria": "TIRZEPATIDA",
@@ -513,7 +513,7 @@
     "DEZEMBRO|25": 55817,
     "JANEIRO|26": 28017,
     "FEVEREIRO|26": "",
-    "FEVEREIRO|27": ""
+    "MAR?O|26": ""
   },
   {
     "Categoria": "IMPLANTES",
@@ -525,7 +525,7 @@
     "DEZEMBRO|25": 13290.31,
     "JANEIRO|26": 0,
     "FEVEREIRO|26": "",
-    "FEVEREIRO|27": ""
+    "MAR?O|26": ""
   },
   {
     "Categoria": "CARD?PIO",
@@ -537,7 +537,7 @@
     "DEZEMBRO|25": 1264.96,
     "JANEIRO|26": 696.68,
     "FEVEREIRO|26": "",
-    "FEVEREIRO|27": ""
+    "MAR?O|26": ""
   },
   {
     "Categoria": "OUTROS",
@@ -549,7 +549,7 @@
     "DEZEMBRO|25": 11414.13,
     "JANEIRO|26": 27153.62,
     "FEVEREIRO|26": "",
-    "FEVEREIRO|27": ""
+    "MAR?O|26": ""
   },
   {
     "Categoria": "Custos Socio Total",
@@ -561,7 +561,7 @@
     "DEZEMBRO|25": 64844.91,
     "JANEIRO|26": 69418.65,
     "FEVEREIRO|26": "",
-    "FEVEREIRO|27": ""
+    "MAR?O|26": ""
   },
   {
     "Categoria": "RETIRADA SOCIO",
@@ -573,7 +573,7 @@
     "DEZEMBRO|25": 54670,
     "JANEIRO|26": 59600,
     "FEVEREIRO|26": "",
-    "FEVEREIRO|27": ""
+    "MAR?O|26": ""
   },
   {
     "Categoria": "DESPESAS PESSOAIS - SOCIO",
@@ -585,7 +585,7 @@
     "DEZEMBRO|25": 10174.91,
     "JANEIRO|26": 9818.65,
     "FEVEREIRO|26": "",
-    "FEVEREIRO|27": ""
+    "MAR?O|26": ""
   },
   {
     "Categoria": "PRODUTO MAIS VENDIDO",
@@ -597,7 +597,7 @@
     "DEZEMBRO|25": "",
     "JANEIRO|26": "",
     "FEVEREIRO|26": "",
-    "FEVEREIRO|27": ""
+    "MAR?O|26": ""
   },
   {
     "Categoria": "PRODUTO MAIS RENT?VEL",
@@ -609,6 +609,6 @@
     "DEZEMBRO|25": "",
     "JANEIRO|26": "",
     "FEVEREIRO|26": "",
-    "FEVEREIRO|27": ""
+    "MAR?O|26": ""
   }
 ]
