@@ -387,7 +387,7 @@
     "JANEIRO|26": 186329.23,
     "FEVEREIRO|26": 247509.1,
     "MARCO|26": 226010.12,
-    "ABRIL|26": 216036.83999999997
+    "ABRIL|26": 226010.12
   },
   {
     "Categoria": "CUSTOS FIXOS TOTAL",
@@ -400,7 +400,7 @@
     "JANEIRO|26": 52657.76,
     "FEVEREIRO|26": 47333.56999999999,
     "MARCO|26": 47097.189999999995,
-    "ABRIL|26": 37123.909999999996
+    "ABRIL|26": 47097.189999999995
   },
   {
     "Categoria": "ALUGUEL",
@@ -413,7 +413,7 @@
     "JANEIRO|26": 9176.02,
     "FEVEREIRO|26": 9973.28,
     "MARCO|26": 9973.28,
-    "ABRIL|26": 2544.16
+    "ABRIL|26": 9973.28
   },
   {
     "Categoria": "CONDOMINIO",
@@ -426,7 +426,7 @@
     "JANEIRO|26": 2997.05,
     "FEVEREIRO|26": 2394.57,
     "MARCO|26": 2544.16,
-    "ABRIL|26": ""
+    "ABRIL|26": 2544.16
   },
   {
     "Categoria": "INTERNET",
