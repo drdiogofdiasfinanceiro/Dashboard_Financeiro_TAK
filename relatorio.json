@@ -387,7 +387,7 @@
     "JANEIRO|26": 186329.23,
     "FEVEREIRO|26": 247509.1,
     "MARCO|26": 226010.12,
-    "ABRIL|26": 227022.46999999997
+    "ABRIL|26": "#ERROR!"
   },
   {
     "Categoria": "CUSTOS FIXOS TOTAL",
@@ -400,7 +400,7 @@
     "JANEIRO|26": 52657.76,
     "FEVEREIRO|26": 47333.56999999999,
     "MARCO|26": 47097.189999999995,
-    "ABRIL|26": 48109.53999999999
+    "ABRIL|26": "#ERROR!"
   },
   {
     "Categoria": "ALUGUEL",
@@ -491,7 +491,7 @@
     "JANEIRO|26": 26725.160000000003,
     "FEVEREIRO|26": 25387.75,
     "MARCO|26": 24086.35,
-    "ABRIL|26": 24086.35
+    "ABRIL|26": "#ERROR!"
   },
   {
     "Categoria": "IMPOSTOS",
