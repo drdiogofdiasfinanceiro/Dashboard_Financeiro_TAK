@@ -244,7 +244,7 @@
     "JANEIRO|26": 108,
     "FEVEREIRO|26": 145,
     "MARCO|26": 178,
-    "ABRIL|26": -109
+    "ABRIL|26": 0
   },
   {
     "Categoria": "INJETAVEIS MULHERES",
@@ -257,7 +257,7 @@
     "JANEIRO|26": 66,
     "FEVEREIRO|26": 99,
     "MARCO|26": 109,
-    "ABRIL|26": 109
+    "ABRIL|26": 0
   },
   {
     "Categoria": "N? ATENDIMENTOS",
@@ -283,7 +283,7 @@
     "JANEIRO|26": 142,
     "FEVEREIRO|26": 178,
     "MARCO|26": 178,
-    "ABRIL|26": -109
+    "ABRIL|26": 0
   },
   {
     "Categoria": "MULHERES",
@@ -296,7 +296,7 @@
     "JANEIRO|26": 95,
     "FEVEREIRO|26": 133,
     "MARCO|26": 109,
-    "ABRIL|26": 109
+    "ABRIL|26": 0
   },
   {
     "Categoria": "VENDA TOTAL - STONE",
