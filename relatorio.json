@@ -231,7 +231,7 @@
     "JANEIRO|26": 174,
     "FEVEREIRO|26": 244,
     "MARCO|26": 287,
-    "ABRIL|26": 287
+    "ABRIL|26": 0
   },
   {
     "Categoria": "INJETAVEIS HOMENS",
@@ -244,7 +244,7 @@
     "JANEIRO|26": 108,
     "FEVEREIRO|26": 145,
     "MARCO|26": 178,
-    "ABRIL|26": 178
+    "ABRIL|26": -109
   },
   {
     "Categoria": "INJETAVEIS MULHERES",
@@ -270,7 +270,7 @@
     "JANEIRO|26": 237,
     "FEVEREIRO|26": 301,
     "MARCO|26": 381,
-    "ABRIL|26": 381
+    "ABRIL|26": 94
   },
   {
     "Categoria": "HOMENS",
@@ -283,7 +283,7 @@
     "JANEIRO|26": 142,
     "FEVEREIRO|26": 178,
     "MARCO|26": 178,
-    "ABRIL|26": 178
+    "ABRIL|26": -109
   },
   {
     "Categoria": "MULHERES",
