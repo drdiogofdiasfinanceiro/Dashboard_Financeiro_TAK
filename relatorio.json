@@ -193,7 +193,7 @@
     "FEVEREIRO|26": 33,
     "MARCO|26": 60,
     "ABRIL|26": 49,
-    "MAIO|26": 49
+    "MAIO|26": 0
   },
   {
     "Categoria": "CONSULTAS MULHERES",
@@ -207,7 +207,7 @@
     "FEVEREIRO|26": 34,
     "MARCO|26": 34,
     "ABRIL|26": 45,
-    "MAIO|26": 45
+    "MAIO|26": 0
   },
   {
     "Categoria": "CONSULTAS HOMENS NOVOS",
@@ -221,7 +221,7 @@
     "FEVEREIRO|26": 10,
     "MARCO|26": 10,
     "ABRIL|26": 7,
-    "MAIO|26": 7
+    "MAIO|26": 0
   },
   {
     "Categoria": "CONSULTAS MULHERES NOVAS",
@@ -305,7 +305,7 @@
     "FEVEREIRO|26": 178,
     "MARCO|26": 238,
     "ABRIL|26": 49,
-    "MAIO|26": 49
+    "MAIO|26": 0
   },
   {
     "Categoria": "MULHERES",
@@ -319,7 +319,7 @@
     "FEVEREIRO|26": 133,
     "MARCO|26": 143,
     "ABRIL|26": 45,
-    "MAIO|26": 45
+    "MAIO|26": 0
   },
   {
     "Categoria": "VENDA TOTAL - STONE",
