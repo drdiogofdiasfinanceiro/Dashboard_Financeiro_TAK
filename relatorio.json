@@ -14,7 +14,8 @@
     "MAIO|26": "20",
     "JUNHO|26": "21",
     "JULHO|26": "23",
-    "AGOSTO|26": "21"
+    "AGOSTO|26": "21",
+    "": ""
   },
   {
     "Categoria": "FATURAMENTO (NFSe)",
@@ -31,7 +32,8 @@
     "MAIO|26": 85029,
     "JUNHO|26": 87175,
     "JULHO|26": 45940,
-    "AGOSTO|26": 99762.22
+    "AGOSTO|26": 99762.22,
+    "": ""
   },
   {
     "Categoria": "SALDO INICIAL UNICRED",
@@ -48,7 +50,8 @@
     "MAIO|26": 1068.24,
     "JUNHO|26": 3478.48,
     "JULHO|26": 31075.49,
-    "AGOSTO|26": 10393.97
+    "AGOSTO|26": 10393.97,
+    "": ""
   },
   {
     "Categoria": "SALDO INICIAL STONE",
@@ -65,7 +68,8 @@
     "MAIO|26": 345167.36,
     "JUNHO|26": 350823.72,
     "JULHO|26": 228577.93,
-    "AGOSTO|26": 137854.54
+    "AGOSTO|26": 137854.54,
+    "": ""
   },
   {
     "Categoria": "SALDO INICIAL CAIXINHA",
@@ -82,7 +86,8 @@
     "MAIO|26": 0,
     "JUNHO|26": 0,
     "JULHO|26": 0,
-    "AGOSTO|26": 0
+    "AGOSTO|26": 0,
+    "": ""
   },
   {
     "Categoria": "RECEITAS",
@@ -99,7 +104,8 @@
     "MAIO|26": 266324.06,
     "JUNHO|26": 291987.74,
     "JULHO|26": 258362.64,
-    "AGOSTO|26": 213483.57
+    "AGOSTO|26": 213483.57,
+    "": ""
   },
   {
     "Categoria": "DESPESAS",
@@ -116,7 +122,8 @@
     "MAIO|26": 258256.54,
     "JUNHO|26": 386116.52,
     "JULHO|26": 370767.55,
-    "AGOSTO|26": 206246.54
+    "AGOSTO|26": 206246.54,
+    "": ""
   },
   {
     "Categoria": "SALDO DO PER?ODO",
@@ -133,7 +140,8 @@
     "MAIO|26": 8067.5199999999895,
     "JUNHO|26": -94128.78000000003,
     "JULHO|26": -112404.90999999997,
-    "AGOSTO|26": 7237.029999999999
+    "AGOSTO|26": 7237.029999999999,
+    "": ""
   },
   {
     "Categoria": "SALDO FINAL UNICRED",
@@ -150,7 +158,8 @@
     "MAIO|26": 3478.48,
     "JUNHO|26": 31075.49,
     "JULHO|26": 10393.97,
-    "AGOSTO|26": 29423.17
+    "AGOSTO|26": 29423.17,
+    "": 155485.54
   },
   {
     "Categoria": "SALDO FINAL STONE",
@@ -167,7 +176,8 @@
     "MAIO|26": 350823.72,
     "JUNHO|26": 228577.93,
     "JULHO|26": 137854.54,
-    "AGOSTO|26": 126062.37
+    "AGOSTO|26": 126062.37,
+    "": ""
   },
   {
     "Categoria": "CAIXINHA",
@@ -184,7 +194,8 @@
     "MAIO|26": 0,
     "JUNHO|26": 0,
     "JULHO|26": 0,
-    "AGOSTO|26": 0
+    "AGOSTO|26": 0,
+    "": ""
   },
   {
     "Categoria": "RESULTADO FINANCEIRO %",
@@ -201,7 +212,8 @@
     "MAIO|26": 0.03029211855661854,
     "JUNHO|26": -0.32237237083995385,
     "JULHO|26": -0.4350664244644658,
-    "AGOSTO|26": 0.03389970478758622
+    "AGOSTO|26": 0.03389970478758622,
+    "": ""
   },
   {
     "Categoria": "CONSULTAS TOTAL",
@@ -218,7 +230,8 @@
     "MAIO|26": 93,
     "JUNHO|26": 78,
     "JULHO|26": 68,
-    "AGOSTO|26": 75
+    "AGOSTO|26": 75,
+    "": ""
   },
   {
     "Categoria": "CONSULTAS HOMENS",
@@ -235,7 +248,8 @@
     "MAIO|26": 51,
     "JUNHO|26": 54,
     "JULHO|26": 44,
-    "AGOSTO|26": 46
+    "AGOSTO|26": 46,
+    "": ""
   },
   {
     "Categoria": "CONSULTAS MULHERES",
@@ -252,7 +266,8 @@
     "MAIO|26": 42,
     "JUNHO|26": 24,
     "JULHO|26": 24,
-    "AGOSTO|26": 29
+    "AGOSTO|26": 29,
+    "": ""
   },
   {
     "Categoria": "CONSULTAS HOMENS NOVOS",
@@ -269,7 +284,8 @@
     "MAIO|26": 7,
     "JUNHO|26": 7,
     "JULHO|26": 9,
-    "AGOSTO|26": 9
+    "AGOSTO|26": 9,
+    "": ""
   },
   {
     "Categoria": "CONSULTAS MULHERES NOVAS",
@@ -286,7 +302,8 @@
     "MAIO|26": 3,
     "JUNHO|26": 6,
     "JULHO|26": 3,
-    "AGOSTO|26": 5
+    "AGOSTO|26": 5,
+    "": ""
   },
   {
     "Categoria": "INJETAVEIS TOTAL",
@@ -303,7 +320,8 @@
     "MAIO|26": 274,
     "JUNHO|26": 239,
     "JULHO|26": 191,
-    "AGOSTO|26": 114
+    "AGOSTO|26": 114,
+    "": ""
   },
   {
     "Categoria": "INJETAVEIS HOMENS",
@@ -320,7 +338,8 @@
     "MAIO|26": 164,
     "JUNHO|26": 139,
     "JULHO|26": 127,
-    "AGOSTO|26": 51
+    "AGOSTO|26": 51,
+    "": ""
   },
   {
     "Categoria": "INJETAVEIS MULHERES",
@@ -337,7 +356,8 @@
     "MAIO|26": 110,
     "JUNHO|26": 100,
     "JULHO|26": 64,
-    "AGOSTO|26": 63
+    "AGOSTO|26": 63,
+    "": ""
   },
   {
     "Categoria": "N? ATENDIMENTOS",
@@ -354,7 +374,8 @@
     "MAIO|26": 367,
     "JUNHO|26": 317,
     "JULHO|26": 259,
-    "AGOSTO|26": 189
+    "AGOSTO|26": 189,
+    "": ""
   },
   {
     "Categoria": "HOMENS",
@@ -371,7 +392,8 @@
     "MAIO|26": 215,
     "JUNHO|26": 193,
     "JULHO|26": 171,
-    "AGOSTO|26": 97
+    "AGOSTO|26": 97,
+    "": ""
   },
   {
     "Categoria": "MULHERES",
@@ -388,7 +410,8 @@
     "MAIO|26": 152,
     "JUNHO|26": 124,
     "JULHO|26": 88,
-    "AGOSTO|26": 92
+    "AGOSTO|26": 92,
+    "": ""
   },
   {
     "Categoria": "VENDA TOTAL - STONE",
@@ -405,7 +428,8 @@
     "MAIO|26": 218331,
     "JUNHO|26": 246430.5,
     "JULHO|26": 220503.13,
-    "AGOSTO|26": 190646.3
+    "AGOSTO|26": 190646.3,
+    "": ""
   },
   {
     "Categoria": "N?MERO VENDAS - STONE",
@@ -422,7 +446,8 @@
     "MAIO|26": 211,
     "JUNHO|26": 180,
     "JULHO|26": 131,
-    "AGOSTO|26": 130
+    "AGOSTO|26": 130,
+    "": ""
   },
   {
     "Categoria": "TICKET M?DIO - STONE",
@@ -439,7 +464,8 @@
     "MAIO|26": 1034.744075829384,
     "JUNHO|26": 1369.0583333333334,
     "JULHO|26": 1683.23,
-    "AGOSTO|26": 1466.51
+    "AGOSTO|26": 1466.51,
+    "": ""
   },
   {
     "Categoria": "FATURAMENTO TOTAL",
@@ -456,7 +482,8 @@
     "MAIO|26": 266324.06,
     "JUNHO|26": 291987.74,
     "JULHO|26": 258362.64,
-    "AGOSTO|26": 213483.57
+    "AGOSTO|26": 213483.57,
+    "": ""
   },
   {
     "Categoria": "FATURAMENTO DE CONSULTAS",
@@ -473,7 +500,8 @@
     "MAIO|26": 58043.98,
     "JUNHO|26": 58826.41,
     "JULHO|26": 58659.74,
-    "AGOSTO|26": 48869.77
+    "AGOSTO|26": 48869.77,
+    "": ""
   },
   {
     "Categoria": "FATURAMENTO INJETAVEIS",
@@ -490,7 +518,8 @@
     "MAIO|26": 208280.08,
     "JUNHO|26": 233161.33,
     "JULHO|26": 199702.90000000002,
-    "AGOSTO|26": 164613.80000000002
+    "AGOSTO|26": 164613.80000000002,
+    "": ""
   },
   {
     "Categoria": "DESPESA TOTAL",
@@ -507,7 +536,8 @@
     "MAIO|26": 258256.54000000004,
     "JUNHO|26": 386116.52,
     "JULHO|26": 370767.55000000005,
-    "AGOSTO|26": 206246.53999999998
+    "AGOSTO|26": 206246.53999999998,
+    "": ""
   },
   {
     "Categoria": "CUSTOS FIXOS TOTAL",
@@ -524,7 +554,8 @@
     "MAIO|26": 65800.67,
     "JUNHO|26": 54327.39000000001,
     "JULHO|26": 74412.31999999999,
-    "AGOSTO|26": 52917.58
+    "AGOSTO|26": 52917.58,
+    "": ""
   },
   {
     "Categoria": "ALUGUEL",
@@ -541,7 +572,8 @@
     "MAIO|26": 9973.28,
     "JUNHO|26": 9947.29,
     "JULHO|26": 9945.48,
-    "AGOSTO|26": 9947.11
+    "AGOSTO|26": 9947.11,
+    "": ""
   },
   {
     "Categoria": "CONDOMINIO",
@@ -558,7 +590,8 @@
     "MAIO|26": 3167.47,
     "JUNHO|26": 2865.22,
     "JULHO|26": 2943.96,
-    "AGOSTO|26": 3025.69
+    "AGOSTO|26": 3025.69,
+    "": ""
   },
   {
     "Categoria": "INTERNET",
@@ -575,7 +608,8 @@
     "MAIO|26": 166.94,
     "JUNHO|26": 223.45000000000002,
     "JULHO|26": 167.21,
-    "AGOSTO|26": 190
+    "AGOSTO|26": 190,
+    "": ""
   },
   {
     "Categoria": "SISTEMA",
@@ -592,7 +626,8 @@
     "MAIO|26": 471.64,
     "JUNHO|26": 472.04,
     "JULHO|26": 471.64,
-    "AGOSTO|26": 1561.55
+    "AGOSTO|26": 1561.55,
+    "": ""
   },
   {
     "Categoria": "MARKETING",
@@ -609,7 +644,8 @@
     "MAIO|26": 6861.9,
     "JUNHO|26": 4579.9,
     "JULHO|26": 5429.9,
-    "AGOSTO|26": 5779.9
+    "AGOSTO|26": 5779.9,
+    "": ""
   },
   {
     "Categoria": "FINANCEIRO",
@@ -626,7 +662,8 @@
     "MAIO|26": 0,
     "JUNHO|26": 1518,
     "JULHO|26": 1518,
-    "AGOSTO|26": 1518
+    "AGOSTO|26": 1518,
+    "": ""
   },
   {
     "Categoria": "SAL?RIOS",
@@ -643,7 +680,8 @@
     "MAIO|26": 32572.66,
     "JUNHO|26": 34721.490000000005,
     "JULHO|26": 33587.81,
-    "AGOSTO|26": 25591.38
+    "AGOSTO|26": 25591.38,
+    "": ""
   },
   {
     "Categoria": "IMPOSTOS",
@@ -660,7 +698,8 @@
     "MAIO|26": 12586.78,
     "JUNHO|26": 0,
     "JULHO|26": 20348.32,
-    "AGOSTO|26": 5303.95
+    "AGOSTO|26": 5303.95,
+    "": ""
   },
   {
     "Categoria": "CUSTOS VARI?VEIS TOTAL",
@@ -677,7 +716,8 @@
     "MAIO|26": 124475.91,
     "JUNHO|26": 161321.15000000002,
     "JULHO|26": 152679.95,
-    "AGOSTO|26": 54698.77
+    "AGOSTO|26": 54698.77,
+    "": ""
   },
   {
     "Categoria": "INSUMOS",
@@ -694,7 +734,8 @@
     "MAIO|26": 22716.07,
     "JUNHO|26": 18458.12,
     "JULHO|26": 7857.38,
-    "AGOSTO|26": 10606.07
+    "AGOSTO|26": 10606.07,
+    "": ""
   },
   {
     "Categoria": "MEDICAMENTOS INJET?VEIS",
@@ -711,7 +752,8 @@
     "MAIO|26": 24750,
     "JUNHO|26": 21955.07,
     "JULHO|26": 14516,
-    "AGOSTO|26": 5136.56
+    "AGOSTO|26": 5136.56,
+    "": ""
   },
   {
     "Categoria": "TIRZEPATIDA",
@@ -728,7 +770,8 @@
     "MAIO|26": 23712,
     "JUNHO|26": 13120,
     "JULHO|26": 16000,
-    "AGOSTO|26": 0
+    "AGOSTO|26": 0,
+    "": ""
   },
   {
     "Categoria": "IMPLANTES",
@@ -745,7 +788,8 @@
     "MAIO|26": 10791.1,
     "JUNHO|26": 0,
     "JULHO|26": 0,
-    "AGOSTO|26": 0
+    "AGOSTO|26": 0,
+    "": ""
   },
   {
     "Categoria": "CARD?PIO",
@@ -762,7 +806,8 @@
     "MAIO|26": 630,
     "JUNHO|26": 1397,
     "JULHO|26": 1430.4,
-    "AGOSTO|26": 1352.76
+    "AGOSTO|26": 1352.76,
+    "": ""
   },
   {
     "Categoria": "OUTROS",
@@ -779,7 +824,8 @@
     "MAIO|26": 41876.74,
     "JUNHO|26": 106390.96,
     "JULHO|26": 112876.17,
-    "AGOSTO|26": 37603.38
+    "AGOSTO|26": 37603.38,
+    "": ""
   },
   {
     "Categoria": "Custos Socio Total",
@@ -796,7 +842,8 @@
     "MAIO|26": 67979.96,
     "JUNHO|26": 170467.98,
     "JULHO|26": 143675.28,
-    "AGOSTO|26": 98630.18999999999
+    "AGOSTO|26": 98630.18999999999,
+    "": ""
   },
   {
     "Categoria": "RETIRADA SOCIO",
@@ -813,7 +860,8 @@
     "MAIO|26": 61453.22,
     "JUNHO|26": 168500,
     "JULHO|26": 114475,
-    "AGOSTO|26": 83276.68
+    "AGOSTO|26": 83276.68,
+    "": ""
   },
   {
     "Categoria": "DESPESAS PESSOAIS - SOCIO",
@@ -830,7 +878,8 @@
     "MAIO|26": 6526.74,
     "JUNHO|26": 1967.98,
     "JULHO|26": 29200.28,
-    "AGOSTO|26": 15353.51
+    "AGOSTO|26": 15353.51,
+    "": ""
   },
   {
     "Categoria": "PRODUTO MAIS VENDIDO",
@@ -847,7 +896,8 @@
     "MAIO|26": "",
     "JUNHO|26": "",
     "JULHO|26": "",
-    "AGOSTO|26": ""
+    "AGOSTO|26": "",
+    "": ""
   },
   {
     "Categoria": "PRODUTO MAIS RENT?VEL",
@@ -864,6 +914,7 @@
     "MAIO|26": "",
     "JUNHO|26": "",
     "JULHO|26": "",
-    "AGOSTO|26": ""
+    "AGOSTO|26": "",
+    "": ""
   }
 ]
