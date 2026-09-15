@@ -199,24 +199,6 @@
   },
   {
     "Categoria": "RESULTADO FINANCEIRO %",
-    "JULHO|25": 0.23724698635734448,
-    "AGOSTO|25": 0.2927268232928037,
-    "SETEMBRO|25": 0.3041199207339359,
-    "OUTUBRO|25": 0.17305987530336966,
-    "NOVEMBRO|25": 0.20316985423389874,
-    "DEZEMBRO|25": 0.12912317813417465,
-    "JANEIRO|26": 0.05734175740148867,
-    "FEVEREIRO|26": -0.36691815195042393,
-    "MARCO|26": 0.15709447962257136,
-    "ABRIL|26": -0.2820313484523521,
-    "MAIO|26": 0.03029211855661854,
-    "JUNHO|26": -0.32237237083995385,
-    "JULHO|26": -0.4350664244644658,
-    "AGOSTO|26": 0.03389970478758622,
-    "": ""
-  },
-  {
-    "Categoria": "CONSULTAS TOTAL",
     "JULHO|25": 61,
     "AGOSTO|25": 82,
     "SETEMBRO|25": 85,
@@ -234,7 +216,7 @@
     "": ""
   },
   {
-    "Categoria": "CONSULTAS HOMENS",
+    "Categoria": "CONSULTAS TOTAL",
     "JULHO|25": 34,
     "AGOSTO|25": 40,
     "SETEMBRO|25": 47,
@@ -252,7 +234,7 @@
     "": ""
   },
   {
-    "Categoria": "CONSULTAS MULHERES",
+    "Categoria": "CONSULTAS HOMENS",
     "JULHO|25": 27,
     "AGOSTO|25": 42,
     "SETEMBRO|25": 38,
@@ -270,7 +252,7 @@
     "": ""
   },
   {
-    "Categoria": "CONSULTAS HOMENS NOVOS",
+    "Categoria": "CONSULTAS MULHERES",
     "JULHO|25": 2,
     "AGOSTO|25": 6,
     "SETEMBRO|25": 7,
@@ -288,7 +270,7 @@
     "": ""
   },
   {
-    "Categoria": "CONSULTAS MULHERES NOVAS",
+    "Categoria": "CONSULTAS HOMENS NOVOS",
     "JULHO|25": 5,
     "AGOSTO|25": 9,
     "SETEMBRO|25": 9,
@@ -306,7 +288,7 @@
     "": ""
   },
   {
-    "Categoria": "INJETAVEIS TOTAL",
+    "Categoria": "CONSULTAS MULHERES NOVAS",
     "JULHO|25": "",
     "AGOSTO|25": 195,
     "SETEMBRO|25": 184,
@@ -324,7 +306,7 @@
     "": ""
   },
   {
-    "Categoria": "INJETAVEIS HOMENS",
+    "Categoria": "INJETAVEIS TOTAL",
     "JULHO|25": "",
     "AGOSTO|25": "",
     "SETEMBRO|25": "",
@@ -342,7 +324,7 @@
     "": ""
   },
   {
-    "Categoria": "INJETAVEIS MULHERES",
+    "Categoria": "INJETAVEIS HOMENS",
     "JULHO|25": "",
     "AGOSTO|25": "",
     "SETEMBRO|25": "",
@@ -360,7 +342,7 @@
     "": ""
   },
   {
-    "Categoria": "N? ATENDIMENTOS",
+    "Categoria": "INJETAVEIS MULHERES",
     "JULHO|25": 61,
     "AGOSTO|25": 277,
     "SETEMBRO|25": 269,
@@ -378,7 +360,7 @@
     "": ""
   },
   {
-    "Categoria": "HOMENS",
+    "Categoria": "N? ATENDIMENTOS",
     "JULHO|25": "",
     "AGOSTO|25": "",
     "SETEMBRO|25": "",
@@ -396,7 +378,7 @@
     "": ""
   },
   {
-    "Categoria": "MULHERES",
+    "Categoria": "HOMENS",
     "JULHO|25": "",
     "AGOSTO|25": "",
     "SETEMBRO|25": "",
@@ -411,6 +393,24 @@
     "JUNHO|26": 124,
     "JULHO|26": 88,
     "AGOSTO|26": 92,
+    "": ""
+  },
+  {
+    "Categoria": "MULHERES",
+    "JULHO|25": "",
+    "AGOSTO|25": "",
+    "SETEMBRO|25": "",
+    "OUTUBRO|25": "",
+    "NOVEMBRO|25": "",
+    "DEZEMBRO|25": "",
+    "JANEIRO|26": "",
+    "FEVEREIRO|26": "",
+    "MARCO|26": "",
+    "ABRIL|26": "",
+    "MAIO|26": "",
+    "JUNHO|26": "",
+    "JULHO|26": "",
+    "AGOSTO|26": "",
     "": ""
   },
   {
