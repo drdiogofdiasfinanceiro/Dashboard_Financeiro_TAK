@@ -295,7 +295,8 @@ function render(){
     ['RECEITAS','Receitas'],
     ['DESPESAS','Despesas'],
     ['SALDO DO PER?ODO','Saldo Mês'],
-    ['LUCRO LIQUIDO %','Lucro %']
+    ['VENDAS','Vendas']
+    // ['LUCRO LIQUIDO %','Lucro %']
   ]);
 
   renderArea('areaRevenue','Faturamento',[
@@ -348,7 +349,7 @@ function renderCards(containerId, defs){
     'Receitas':'M12 3c-3 0-5 2-5 5v1h10V8c0-3-2-5-5-5zm-6 8h12l-1 9H7l-1-9z',
     'Despesas':'M6 7c0-2 12-2 12 0s-12 2-12 0zm0 4c0-2 12-2 12 0s-12 2-12 0zm0 4c0-2 12-2 12 0s-12 2-12 0z',
     'Saldo Mês':'M4 16l6-6 4 4 6-8',
-    'Lucro %':'M6 8h12l-1 12H7L6 8zm3 0V6a3 3 0 016 0v2',
+    'Vendas':'M6 8h12l-1 12H7L6 8zm3 0V6a3 3 0 016 0v2',
     'Vendas Stone':'M7 3h10v18H7zM9 7h6M9 11h6M9 15h4',
     'Qtd Vendas':'M9 3L7 21M17 3l-2 18M3 9h18M3 15h18',
     'Ticket Médio':'M3 21l6-6M9 15l6-6M15 9l4-4M7 17l2 2',
@@ -362,7 +363,7 @@ function renderCards(containerId, defs){
   'Receitas': 'Total faturado no mês selecionado',
   'Despesas': 'Soma de todos os custos do mês',
   'Saldo Mês': 'Receitas menos despesas do período',
-  'Lucro %': 'Lucro líquido em relação às receitas',
+  'Vendas': 'Total de vendas no mês',
   'Vendas Stone': 'Valor total processado pela Stone',
   'Qtd Vendas': 'Número de transações realizadas pela Stone', 
   'Ticket Médio': 'Valor médio por venda pela Stone',
@@ -376,7 +377,7 @@ function renderCards(containerId, defs){
   'Receitas': 'up',
   'Despesas': 'down',
   'Saldo Mês': 'up',
-  'Lucro %': 'up',
+  'Vendas': 'up',
   'Vendas Stone': 'up',
   'Qtd Vendas': 'up',
   'Ticket Médio': 'up',
