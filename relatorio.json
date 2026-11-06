@@ -130,7 +130,7 @@
     "JULHO|26": 100000,
     "AGOSTO|26": 105000,
     "SETEMBRO|26": 105000,
-    "OUTUBRO|26": 105000
+    "OUTUBRO|26": 185000
   },
   {
     "Categoria": "RECEITAS",
@@ -281,8 +281,8 @@
     "JUNHO|26": 100000,
     "JULHO|26": 105000,
     "AGOSTO|26": 105000,
-    "SETEMBRO|26": 105000,
-    "OUTUBRO|26": 106475.63
+    "SETEMBRO|26": 185000,
+    "OUTUBRO|26": 186475.63
   },
   {
     "Categoria": "RESULTADO FINANCEIRO %",
