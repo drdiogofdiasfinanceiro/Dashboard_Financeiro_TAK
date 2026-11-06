@@ -129,8 +129,8 @@
     "JUNHO|26": 100000,
     "JULHO|26": 100000,
     "AGOSTO|26": 100000,
-    "SETEMBRO|26": 103299.92,
-    "OUTUBRO|26": 104433.51
+    "SETEMBRO|26": 100000,
+    "OUTUBRO|26": 101133.59
   },
   {
     "Categoria": "RECEITAS",
@@ -166,7 +166,7 @@
     "MAIO|26": "",
     "JUNHO|26": "",
     "JULHO|26": "",
-    "AGOSTO|26": 3299.92,
+    "AGOSTO|26": 0,
     "SETEMBRO|26": 1133.59,
     "OUTUBRO|26": 1475.63
   },
@@ -280,9 +280,9 @@
     "MAIO|26": "",
     "JUNHO|26": 100000,
     "JULHO|26": 105000,
-    "AGOSTO|26": 103299.92,
-    "SETEMBRO|26": 104433.51,
-    "OUTUBRO|26": 105909.14
+    "AGOSTO|26": 100000,
+    "SETEMBRO|26": 101133.59,
+    "OUTUBRO|26": 102609.22
   },
   {
     "Categoria": "RESULTADO FINANCEIRO %",
