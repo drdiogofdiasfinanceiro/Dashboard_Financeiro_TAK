@@ -128,9 +128,9 @@
     "MAIO|26": "",
     "JUNHO|26": 100000,
     "JULHO|26": 100000,
-    "AGOSTO|26": 105000,
-    "SETEMBRO|26": 105000,
-    "OUTUBRO|26": 185000
+    "AGOSTO|26": 100000,
+    "SETEMBRO|26": 100000,
+    "OUTUBRO|26": 180000
   },
   {
     "Categoria": "RECEITAS",
@@ -280,9 +280,9 @@
     "MAIO|26": "",
     "JUNHO|26": 100000,
     "JULHO|26": 105000,
-    "AGOSTO|26": 105000,
-    "SETEMBRO|26": 185000,
-    "OUTUBRO|26": 186475.63
+    "AGOSTO|26": 100000,
+    "SETEMBRO|26": 180000,
+    "OUTUBRO|26": 181475.63
   },
   {
     "Categoria": "RESULTADO FINANCEIRO %",
